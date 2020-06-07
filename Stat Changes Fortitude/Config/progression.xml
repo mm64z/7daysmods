@@ -1,14 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
 <configs>
-
-
 
 <!--===================================== Fortitude ==================================-->
  <!-- fortitude gives hp -->
-  <append xpath="/progression/attributes/attribute[@name='attFortitude']">
-    <effect_group>
-      <passive_effect name="HealthMax" level="1,10" value="10,100" operation="base_add"/>
-    </effect_group>
-  </append>
+ <append xpath="/progression/attributes/attribute[@name='attFortitude']">
+   <effect_group>
+     <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffBurningElement,buffBurningEnvironment,buffBurningFlamingArrow,buffBurningMolotov,buffBurning"/>
+     <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffInjuryBleeding"/>
+     <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffShocked"/>
+     <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffInfectionCatch,buffInfection01Main"/>
+     <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffArmorShredding,buffLegSprained,buffLegBroken,buffArmSprained,buffArmBroken,buffInjuryStunned01,buffInjuryStunned02,buffInjuryStunned03,buffInjuryCrippled01,buffInjuryKnockdown01,buffInjuryKnockdown01,buffInjuryUnconscious,buffStayDownKO,buffInjuryConcussion"/>
+   </effect_group>
+ </append>
+ <set xpath="/progression/attributes/attribute[@name='attFortitude']/@attFortitudeDesc">Fortitude is the measure of your physical resilience. Increase resistance to debuffs (burning, bleeding, infection, etc)</set>
+ <!-- TODO add descriptions for each level -->
+
  <!-- move master chef to fortitude -->
   <set xpath="/progression/perks/perk[@name='perkMasterChef']/@parent">skillSurvival</set>
   <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel01</set>
@@ -36,36 +42,19 @@
   <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='4']/requirement/@progression_name">attFortitude</set>
   <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='5']/requirement/@progression_name">attFortitude</set>
 
-<!-- add Perk to resist debuffs -->
-<append xpath="/progression/perks">
-<perk icon="ui_game_symbol_critical" desc_key="Resist debuffs" name_key="Ol' Ironsides" name="perkResistDebuff" parent="skillSurvival">
-  <level_requirements level="1">
-    <requirement desc_key="reqFortitudeLevel01" name="ProgressionLevel" value="1" operation="GTE" progression_name="attFortitude"/>
-  </level_requirements>
-  <level_requirements level="2">
-    <requirement desc_key="reqFortitudeLevel03" name="ProgressionLevel" value="3" operation="GTE" progression_name="attFortitude"/>
-  </level_requirements>
-  <level_requirements level="3">
-    <requirement desc_key="reqFortitudeLevel05" name="ProgressionLevel" value="5" operation="GTE" progression_name="attFortitude"/>
-  </level_requirements>
-  <level_requirements level="4">
-    <requirement desc_key="reqFortitudeLevel07" name="ProgressionLevel" value="7" operation="GTE" progression_name="attFortitude"/>
-  </level_requirements>
-  <level_requirements level="5">
-    <requirement desc_key="reqFortitudeLevel10" name="ProgressionLevel" value="10" operation="GTE" progression_name="attFortitude"/>
-  </level_requirements>
-  <effect_group>
-    <passive_effect name="BuffResistance" level="1,5" value="0.1,0.5" operation="base_add" tags="buffBurningElement,buffBurningEnvironment,buffBurningFlamingArrow,buffBurningMolotov,buffBurning"/>
-        <passive_effect name="BuffResistance" level="1,5" value="0.1,0.5" operation="base_add" tags="buffInjuryBleeding"/>
-        <passive_effect name="BuffResistance" level="1,5" value="0.1,0.5" operation="base_add" tags="buffShocked"/>
-        <passive_effect name="BuffResistance" level="1,5" value="0.1,0.5" operation="base_add" tags="buffInfectionCatch,buffInfection01Main"/>
-        <passive_effect name="BuffResistance" level="1,5" value="0.1,0.5" operation="base_add" tags="buffArmorShredding,buffLegSprained,buffLegBroken,buffArmSprained,buffArmBroken,buffInjuryStunned01,buffInjuryStunned02,buffInjuryStunned03,buffInjuryCrippled01,buffInjuryKnockdown01,buffInjuryKnockdown01,buffInjuryUnconscious,buffStayDownKO,buffInjuryConcussion"/>
+  <!-- add perk to increase max health -->
+  <append xpath="/progression/perks">
+    <perk name="perkMaxHealth" parent="skillSurvival" name_key="Healthy Heart" desc_key="Increase Max Health by 20 per level" icon="ui_game_symbol_healing_factor">
+      <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
+      <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
+      <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
+      <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
+      <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
+      <effect_group>
+   	<passive_effect name="HealthMax" operation="base_add" level="1,5" value="20,100"/>
       </effect_group>
     </perk>
-
   </append>
-
-
  
  <remove xpath="/progression/perks/perk[@name='perkBrawler']"/>
 

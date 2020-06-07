@@ -9,6 +9,7 @@
       <passive_effect name="CarryCapacity" level="2,10" value="2,18" operation="base_add"/>
     </effect_group>
   </append>
+ <set xpath="/progression/attributes/attribute[@name='attStrength']/@attStrengthDesc">Strength is the measure of your muscular might. Increasing Strength raises the headshot bonus and dismemberment chance with shotguns, clubs and sledgehammers. Increase carrying capacity before becoming encumbered</set>
 
   <!-- merge pummel pete, brawler, skull crusher -->
   <append xpath="/progression/perks/perk[@name='perkPummelPete']">
