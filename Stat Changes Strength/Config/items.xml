@@ -1,0 +1,12 @@
+<!-- due to merging pummel pete, brawler, skull crusher
+     mainly brawler and skull crusher removed
+     change knuckle and club items to look at pummel pete -->
+
+<configs>
+  <!-- modify unlocks -->
+  <set xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='UnlockedBy']/@value">perkPummelPete,meleeToolSledgehammerIronSchematic</set>
+  <set xpath="/items/item[@name='meleeKnucklesIron']/property[@name='UnlockedBy']/@value">perkPummelPete,meleeKnucklesIronSchematic</set>
+
+  <!-- staminams reference combo perk -->
+  <!-- <set xpath="/items/item[@name='meleeKnucklesLeather']/effect_group[@name='meleeKnucklesLeather']/passive_effect[@name='DegradationMax']/@tags">perkPummelPete</set> -->
+</configs>

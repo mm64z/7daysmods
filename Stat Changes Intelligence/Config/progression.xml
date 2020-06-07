@@ -1,0 +1,27 @@
+<configs>
+
+
+<!-- ================================== Intellect ========================-->
+   <!-- Intellect gives scrapper -->
+  <append xpath="/progression/attributes/attribute[@name='attIntellect']">
+    <effect_group>
+      <passive_effect name="CraftingTier" level="2,4,6,8,10" value="1,2,3,4,4" operation="base_add" tags="perkSalvageOperations"/>
+      <passive_effect name="RecipeTagUnlocked" level="2,10" value="1" operation="base_set" tags="meleeToolWrench"/>
+      <passive_effect name="CraftingTime" level="2,10" value="-0.1,-.5" operation="perc_add" tags="salvageScrap"/>
+    </effect_group>
+    <effect_group>
+      <requirement name="ItemHasTags" tags="perkSalvageOperations"/>
+      <passive_effect name="BlockDamage" level="1,10" value=".2,1" operation="perc_add"/>
+      <passive_effect name="EntityDamage" level="1,10" value=".1,.5" operation="perc_add"/>
+      <!-- wrench (or other relevant tools) do a base_add=1 to hop on the salvage train -->
+      <passive_effect name="HarvestCount" level="1,5" value=".2,1" operation="perc_add" tags="salvageHarvest"/>
+    </effect_group>
+  </append>
+
+  
+  
+<!-- available parents: skillPerceptionCombat, skillPerceptionGeneral, skillScavenging, skillStrengthCombat, skillStrengthGeneral, skillConstruction, skillFortitudeCombat, skillSurvival, skillRecovery, skillAgilityCombat, skillAthletics, skillStealth, skillIntellectCombat, skillInfluence, skillCraftsmanship -->
+
+ 
+</configs>
+
