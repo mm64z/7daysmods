@@ -9,7 +9,7 @@
       <passive_effect name="ScavengingTime" level="2,4,6,8,10" value=".1,.2,.4,.6,.8" operation="perc_subtract"/>
     </effect_group>
   </append>
- <set xpath="/progression/attributes/attribute[@name='attPerception']/@attPerceptionDesc">Perception is the measure of your sensory awareness. Increasing Perception raises the headshot bonus and dismemberment chance with spears, rifles and explosive weapons. Also find better loot, decrease looting time, and find buried treasure more easily.</set>
+ <set xpath="/progression/attributes/attribute[@name='attPerception']/@desc_key">Perception is the measure of your sensory awareness. Increasing Perception raises the headshot bonus and dismemberment chance with spears, rifles and explosive weapons. Also find better loot, decrease looting time, and find buried treasure more easily.</set>
 
 <!-- move archery to perception -->
   <set xpath="/progression/perks/perk[@name='perkArchery']/@parent">skillPerceptionCombat</set>

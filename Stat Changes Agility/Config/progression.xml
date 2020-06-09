@@ -11,7 +11,7 @@
     </effect_group>
   </append>
     
-  <set xpath="/progression/attributes/attribute[@name='attAgility']/@attAgilityDesc">Agility is the measure of your athletic prowess. Increase melee attack speed and reload speed</set>
+  <set xpath="/progression/attributes/attribute[@name='attAgility']/@desc_key">Agility is the measure of your athletic prowess. Increase melee attack speed and reload speed</set>
   
 <!-- Move Cardio to Agility -->
   <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/@parent">skillAthletics</set>

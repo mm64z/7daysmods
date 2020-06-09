@@ -18,7 +18,7 @@
     </effect_group>
   </append>
   
- <set xpath="/progression/attributes/attribute[@name='attIntellect']/@attIntellectDesc">Intellect is the measure of your mental ability. Increasing Intellect improves head shot damage with intellect governed weapons such as junk turrets and stun batons. Craft wrenches and salvage scrap more efficiently</set>
+ <set xpath="/progression/attributes/attribute[@name='attIntellect']/@desc_key">Intellect is the measure of your mental ability. Increasing Intellect improves head shot damage with intellect governed weapons such as junk turrets and stun batons. Craft wrenches and salvage scrap more efficiently</set>
   
 <!-- available parents: skillPerceptionCombat, skillPerceptionGeneral, skillScavenging, skillStrengthCombat, skillStrengthGeneral, skillConstruction, skillFortitudeCombat, skillSurvival, skillRecovery, skillAgilityCombat, skillAthletics, skillStealth, skillIntellectCombat, skillInfluence, skillCraftsmanship -->
 

@@ -9,10 +9,9 @@
      <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffInjuryBleeding"/>
      <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffShocked"/>
      <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffInfectionCatch,buffInfection01Main"/>
-     <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffArmorShredding,buffLegSprained,buffLegBroken,buffArmSprained,buffArmBroken,buffInjuryStunned01,buffInjuryStunned02,buffInjuryStunned03,buffInjuryCrippled01,buffInjuryKnockdown01,buffInjuryKnockdown01,buffInjuryUnconscious,buffStayDownKO,buffInjuryConcussion"/>
    </effect_group>
  </append>
- <set xpath="/progression/attributes/attribute[@name='attFortitude']/@attFortitudeDesc">Fortitude is the measure of your physical resilience. Increase resistance to debuffs (burning, bleeding, infection, etc)</set>
+ <set xpath="/progression/attributes/attribute[@name='attFortitude']/@desc_key">"Fortitude is the measure of your physical resilience. Increase resistance to debuffs (burning, bleeding, infection, shocked)"</set>
  <!-- TODO add descriptions for each level -->
 
  <!-- move master chef to fortitude -->
