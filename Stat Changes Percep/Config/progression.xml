@@ -49,6 +49,11 @@
     <effect_group>
       <requirement name="ItemHasTags" tags="ranged"/>
       <passive_effect name="DamageModifier" operation="perc_add" level="1,5" value="0.2,1" tags="head"/>
+      <effect_description desc_base="Kiss of the lips" level="1" long_desc_key="Increase headshot damage by 20%"/>
+      <effect_description desc_base="Forehead Tap" level="2" long_desc_key="Increase headshot damage by 40%"/>
+      <effect_description desc_base="Between the Eyes" level="3" long_desc_key="Increase headshot damage by 60%"/>
+      <effect_description desc_base="On the Nose" level="4" long_desc_key="Increase headshot damage by 80%"/>
+      <effect_description desc_base="Crowned" level="5" long_desc_key="Increase headshot damage by 100%"/>
     </effect_group>
   </perk>
 </append>
@@ -88,6 +93,11 @@
 	<requirement name="RandomRoll" value="100" operation="LTE" min_max="0,100" seed_type="Random"/>
 	<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
       </triggered_effect>
+      <effect_description desc_base="Pulled Hamstring" level="1" long_desc_key="20% chance to cripple with a ranged attack to the legs"/>
+      <effect_description desc_base="Charlie Horse" level="2" long_desc_key="40% chance to cripple with a ranged attack to the legs"/>
+      <effect_description desc_base="Hole in the Foot" level="3" long_desc_key="60% chance to cripple with a ranged attack to the legs"/>
+      <effect_description desc_base="Kneecapped" level="4" long_desc_key="80% chance to cripple with a ranged attack to the legs"/>
+      <effect_description desc_base="Achilles Tendon" level="5" long_desc_key="100% chance to cripple with a ranged attack to the legs"/>
     </effect_group>
   </perk>
 </append>
