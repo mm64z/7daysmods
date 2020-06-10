@@ -40,6 +40,7 @@
   <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='5']/requirement/@progression_name">attAgility</set>
   
 <!-- merge Parkour and Run and Gun -->
+ <set xpath="/progression/perks/perk[@name='perkParkour']@desc_key">Increase athletic ability to move faster while reloading, jump higher, and be more accurate when shooting from the hip</set>
   <append xpath="/progression/perks/perk[@name='perkParkour']">
     <effect_group>
       <requirement name="ItemHasTags" tags="ranged"/>

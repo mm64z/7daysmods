@@ -11,7 +11,8 @@
   </append>
  <set xpath="/progression/attributes/attribute[@name='attStrength']/@desc_key">Strength is the measure of your muscular might. Increasing Strength raises the headshot bonus and dismemberment chance with shotguns, clubs and sledgehammers. Increase carrying capacity before becoming encumbered</set>
 
-  <!-- merge pummel pete, brawler, skull crusher -->
+ <!-- merge pummel pete, brawler, skull crusher -->
+ <set xpath="/progression/perks/perk[@name='perkPummelPete']@desc_key">Specialize in destroying enemies with clubs, sledgehammers, and knuckles</set>
   <append xpath="/progression/perks/perk[@name='perkPummelPete']">
     <effect_group>
       <requirement name="ItemHasTags" tags="perkBrawler"/>
