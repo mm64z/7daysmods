@@ -1,10 +1,11 @@
 <configs>
   <append xpath="/buffs">
-    <buff name="buffReduceFriendlyFire" name_key="Reduce Friendly Fire" icon="ui_game_symbol_intellect">
+    <buff name="buffReduceFriendlyFire" name_key="Reduce Friendly Fire" icon="ui_game_symbol_intellect" icon_color="255,255,255" description_key="Reduce Friendly Fire by 50%">
       <stack_type value="ignore"/>
       <effect_group>
+	<triggered_effect buff="buffReduceFriendlyFire" action="AddBuff" trigger="onSelfEnteredGame"/>
 	<requirement name="EntityTagCompare" target="other" tags="player"/>
-	<passive_effect name="EntityDamage" operation="multiply" value="0.5"/>
+	<passive_effect name="EntityDamage" operation="perc_subtract" value="0.5"/>
       </effect_group>
     </buff>
   </append>
