@@ -3,13 +3,6 @@
 
 
 <!--================================= Strength ==================================================-->
-  <!-- strength gives carry capacity -->
-  <append xpath="/progression/attributes/attribute[@name='attStrength']">
-    <effect_group>
-      <passive_effect name="CarryCapacity" level="2,10" value="2,18" operation="base_add"/>
-    </effect_group>
-  </append>
- <set xpath="/progression/attributes/attribute[@name='attStrength']/@desc_key">Strength is the measure of your muscular might. Increasing Strength raises the headshot bonus and dismemberment chance with shotguns, clubs and sledgehammers. Increase carrying capacity before becoming encumbered</set>
 
  <!-- merge pummel pete, brawler, skull crusher -->
  <set xpath="/progression/perks/perk[@name='perkPummelPete']@desc_key">Specialize in destroying enemies with clubs, sledgehammers, and knuckles</set>
@@ -182,6 +175,5 @@
 
  <remove xpath="/progression/perks/perk[@name='perkPackMule']"/>
  <remove xpath="/progression/perks/perk[@name='perkSkullCrusher']"/>
-  
-</configs>
 
+</configs>
