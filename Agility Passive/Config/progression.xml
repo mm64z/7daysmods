@@ -10,49 +10,7 @@
         <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="1,10" value="0.02,0.2" tags="deployed" invert_tag_check="true"/>
     </effect_group>
   </append>
-    
+
   <set xpath="/progression/attributes/attribute[@name='attAgility']/@desc_key">Agility is the measure of your athletic prowess. Increase melee attack speed and reload speed</set>
-  
-<!-- Move Cardio to Agility -->
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/@parent">skillAthletics</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel01</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel03</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel05</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel07</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel10</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='1']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='2']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='3']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='4']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='5']/requirement/@progression_name">attAgility</set>
 
-<!-- Move Lock-picking to Agility -->
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/@parent">skillStealth</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel01</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel03</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel05</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel07</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel10</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='1']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='2']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='3']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='4']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='5']/requirement/@progression_name">attAgility</set>
-  
-<!-- merge Parkour and Run and Gun -->
- <set xpath="/progression/perks/perk[@name='perkParkour']@desc_key">Increase athletic ability to move faster while reloading, jump higher, and be more accurate when shooting from the hip</set>
-  <append xpath="/progression/perks/perk[@name='perkParkour']">
-    <effect_group>
-      <requirement name="ItemHasTags" tags="ranged"/>
-      <requirement name="!ItemHasTags" tags="shotgun"/>
-      <passive_effect name="SpreadMultiplierHip" operation="perc_add" level="0,5" value="0,-.25"/>
-    </effect_group>
-  </append>
-  
-  <remove xpath="/progression/perks/perk[@name='perkRunAndGun']"/>
-  
-<!-- available parents: skillPerceptionCombat, skillPerceptionGeneral, skillScavenging, skillStrengthCombat, skillStrengthGeneral, skillConstruction, skillFortitudeCombat, skillSurvival, skillRecovery, skillAgilityCombat, skillAthletics, skillStealth, skillIntellectCombat, skillInfluence, skillCraftsmanship -->
-
- 
 </configs>
-

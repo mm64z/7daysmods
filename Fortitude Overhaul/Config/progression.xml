@@ -2,18 +2,6 @@
 <configs>
 
 <!--===================================== Fortitude ==================================-->
- <!-- fortitude gives hp -->
- <append xpath="/progression/attributes/attribute[@name='attFortitude']">
-   <effect_group>
-     <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffBurningElement,buffBurningEnvironment,buffBurningFlamingArrow,buffBurningMolotov,buffBurning"/>
-     <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffInjuryBleeding"/>
-     <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffShocked"/>
-     <passive_effect name="BuffResistance" level="1,10" value="0.1,0.5" operation="base_add" tags="buffInfectionCatch,buffInfection01Main"/>
-   </effect_group>
- </append>
- <set xpath="/progression/attributes/attribute[@name='attFortitude']/@desc_key">"Fortitude is the measure of your physical resilience. Increase resistance to debuffs (burning, bleeding, infection, shocked)"</set>
- <!-- TODO add descriptions for each level -->
-
  <!-- move master chef to fortitude -->
   <set xpath="/progression/perks/perk[@name='perkMasterChef']/@parent">skillSurvival</set>
   <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel01</set>

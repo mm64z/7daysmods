@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="Stat changes agility" />
-		<Description value="Add non-combat effects to base attributes" />
+		<Description value="Overhaul Agility skills." />
 		<Author value="Michael and Lilac" />
 		<Version value="1.0" />
 		<Website value="" />

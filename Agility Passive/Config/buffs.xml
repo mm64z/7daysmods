@@ -1,4 +1,0 @@
-<configs>
-  <!-- do I need to change each level individually? -->
-  <set xpath="/buffs/buff[@name='buffReloadMovementPenalty']/effect_group/requirement/@progression_name">perkParkour</set>
-</configs>
