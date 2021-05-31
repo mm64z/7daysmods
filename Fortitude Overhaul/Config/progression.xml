@@ -50,18 +50,18 @@
       <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
       <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
       <effect_group>
-   	<passive_effect name="HealthMax" operation="base_add" level="1,5" value="20,100"/>
-	<effect_description desc_base="Heart" level="1" long_desc_key="Increase max health by 20"/>
-	<effect_description desc_base="Pump" level="2" long_desc_key="Increase max health by 40"/>
-	<effect_description desc_base="It" level="3" long_desc_key="Increase max health by 60"/>
-	<effect_description desc_base="Up" level="4" long_desc_key="Increase max health by 80"/>
-	<effect_description desc_base="!" level="5" long_desc_key="Increase max health by 100"/>
+       	<passive_effect name="HealthMax" operation="base_add" level="1,5" value="20,100"/>
+        <passive_effect name="attFortitude" operation="base_add" level="1,5" value="1,5"/>
+      	<effect_description desc_base="Heart" level="1" long_desc_key="Increase max health by 20"/>
+      	<effect_description desc_base="Pump" level="2" long_desc_key="Increase max health by 40"/>
+      	<effect_description desc_base="It" level="3" long_desc_key="Increase max health by 60"/>
+      	<effect_description desc_base="Up" level="4" long_desc_key="Increase max health by 80"/>
+      	<effect_description desc_base="!" level="5" long_desc_key="Increase max health by 100"/>
       </effect_group>
     </perk>
   </append>
- 
+
  <remove xpath="/progression/perks/perk[@name='perkBrawler']"/>
 
- 
-</configs>
 
+</configs>

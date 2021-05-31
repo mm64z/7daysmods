@@ -1,0 +1,7 @@
+<configs>
+  <!-- modify unlocks -->
+  <set xpath="/items/item[@name='meleeToolWrench']/property[@name='UnlockedBy']/@value">perkBetterBarter,meleeToolWrenchSchematic</set>
+
+  <!-- staminams reference combo perk -->
+  <!-- <set xpath="/items/item[@name='meleeKnucklesLeather']/effect_group[@name='meleeKnucklesLeather']/passive_effect[@name='DegradationMax']/@tags">perkPummelPete</set> -->
+</configs>
