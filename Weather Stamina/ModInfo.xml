@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Weather Survival Adjustment" />
+		<Description value="Attempt to use weather survival values" />
+		<Author value="Michael" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

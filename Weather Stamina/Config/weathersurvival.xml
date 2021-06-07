@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<!-- Degrees per second in which heat the player generates from melee actions dissapates -->
+  <set xpath="weathersurvival/property[@name='GeneratedHeatDecayRate']/@value">2</set>
+	<!-- How much the player heats when doing melee actions that consume stamina. -->
+  <set xpath="weathersurvival/property[@name='DegreesPerPointOfStaminaUsed']/@value">2</set>
+	<!-- Maximum amount of heat that the player can generate from melee actions -->
+  <set xpath="weathersurvival/property[@name='MaxGeneratedHeat']/@value">20</set>
+  
+  
+  <!-- If players core temp is below this value they will not dry off. -->
+  <set xpath="weathersurvival/property[@name='DryTempCutoff']/@value">50</set>
+  <!-- How much change you feel in the outside air temperature when you are 100% wet. -->
+  <set xpath="weathersurvival/property[@name='OutsideTempChangeWhenInSun']/@value">-10</set>
+  <!-- How much 100% cloud cover can affect how much the sun warms you. -->
+  <set xpath="weathersurvival/property[@name='OutsideTempChangeWhenInSunCloudScale']/@value">10</set>
+  <!-- How much the temp changes when you run. -->
+  <set xpath="weathersurvival/property[@name='OutsideTempShiftWhenRunning']/@value">20</set>
+  <!-- How much the temp changes when you walk. -->
+  <set xpath="weathersurvival/property[@name='OutsideTempShiftWhenWalking']/@value">10</set>
+</configs>

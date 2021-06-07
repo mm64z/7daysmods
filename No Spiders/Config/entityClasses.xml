@@ -1,0 +1,4 @@
+<configs>
+	
+	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'zombieSpider')]/@name">zombieStripper</set>
+</configs>
