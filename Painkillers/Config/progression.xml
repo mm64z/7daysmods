@@ -1,0 +1,6 @@
+<configs>
+	<append xpath="/perks/perk[@name='perkPhysician']/effect_group/passive_effect[@level='3,4']">
+		,drugPainkillers
+	</append>
+</configs>
+

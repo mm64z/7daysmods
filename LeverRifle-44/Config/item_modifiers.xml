@@ -1,0 +1,8 @@
+<configs>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunShotgunTubeExtenderMagazine']/effect_group/passive_effect[@name='MagazineSize']/@operation">
+		base_add
+	</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunShotgunTubeExtenderMagazine']/effect_group/passive_effect[@name='MagazineSize']/@value">
+		3
+	</set>
+</configs>

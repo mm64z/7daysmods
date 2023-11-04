@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="LeverRifle-44" />
+		<Description value="Change Lever Action Rifle to use .44" />
+		<Author value="Michael" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

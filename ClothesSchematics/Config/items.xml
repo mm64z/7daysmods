@@ -1,0 +1,592 @@
+<ClothesSchematics>
+    <!-- Overwrite original scrap values for clothing --> 
+    <set xpath="/items/item[@name='apparelCoatLeatherDuster']/property[@name='Material']/@value">MapparelCoatLeatherDuster</set>
+    <set xpath="/items/item[@name='apparelCowboyHat']/property[@name='Material']/@value">MapparelCowboyHat</set>
+    <set xpath="/items/item[@name='apparelDenimPants']/property[@name='Material']/@value">MapparelDenimPants</set>
+    <set xpath="/items/item[@name='apparelBallCap']/property[@name='Material']/@value">MapparelBallCap</set>
+    <set xpath="/items/item[@name='apparelSweatshirt']/property[@name='Material']/@value">MapparelSweatshirt</set>
+    <set xpath="/items/item[@name='apparelCoatPufferCoat']/property[@name='Material']/@value">MapparelCoatPufferCoat</set>
+    <set xpath="/items/item[@name='apparelSkullCap']/property[@name='Material']/@value">MapparelSkullCap</set>
+    <set xpath="/items/item[@name='apparelTShirtPlain']/property[@name='Material']/@value">MapparelTShirtPlain</set>
+    <set xpath="/items/item[@name='apparelTankTop']/property[@name='Material']/@value">MapparelTankTop</set>
+    <set xpath="/items/item[@name='apparelWornBoots']/property[@name='Material']/@value">MapparelWornBoots</set>
+    <set xpath="/items/item[@name='apparelHoodySweatshirt']/property[@name='Material']/@value">MapparelHoodySweatshirt</set>
+    <set xpath="/items/item[@name='apparelCoatJacketGeneric']/property[@name='Material']/@value">MapparelCoatJacketGeneric</set>
+    <set xpath="/items/item[@name='apparelLongShirt']/property[@name='Material']/@value">MapparelLongShirt</set>
+    <set xpath="/items/item[@name='apparelSuitPants']/property[@name='Material']/@value">MapparelSuitPants</set>
+    <set xpath="/items/item[@name='apparelCoatLeatherDuster']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelCowboyHat']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelDenimPants']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelBallCap']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelSweatshirt']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelCoatPufferCoat']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelSkullCap']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelTShirtPlain']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelTankTop']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelWornBoots']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelHoodySweatshirt']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelCoatJacketGeneric']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelLongShirt']/property[@name='Weight']/@value">1</set>
+    <set xpath="/items/item[@name='apparelSuitPants']/property[@name='Weight']/@value">1</set>
+	
+    <append xpath="/items/item[@name='apparelArmyPants']"><property name="Material" value="MapparelArmyPants"/></append>
+    <append xpath="/items/item[@name='apparelArmyPants']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelSuitDressShoes']"><property name="Material" value="MapparelSuitDressShoes"/></append>
+    <append xpath="/items/item[@name='apparelSuitDressShoes']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelArmyShirt']"><property name="Material" value="MapparelArmyShirt"/></append>
+    <append xpath="/items/item[@name='apparelArmyShirt']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelCoatJacketLetterZU']"><property name="Material" value="MapparelCoatJacketLetterZU"/></append>
+    <append xpath="/items/item[@name='apparelCoatJacketLetterZU']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelCowboyBoots']"><property name="Material" value="MapparelCowboyBoots"/></append>
+    <append xpath="/items/item[@name='apparelCowboyBoots']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelFlannelShirt']"><property name="Material" value="MapparelFlannelShirt"/></append>
+    <append xpath="/items/item[@name='apparelFlannelShirt']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelRunningShoesRegular']"><property name="Material" value="MapparelRunningShoesRegular"/></append>
+    <append xpath="/items/item[@name='apparelRunningShoesRegular']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelDenimShortsPants']"><property name="Material" value="MapparelDenimShortsPants"/></append>
+    <append xpath="/items/item[@name='apparelDenimShortsPants']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelSkirt']"><property name="Material" value="MapparelSkirt"/></append>
+    <append xpath="/items/item[@name='apparelSkirt']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelOveralls']"><property name="Material" value="MapparelOveralls"/></append>
+    <append xpath="/items/item[@name='apparelOveralls']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelGothBoots']"><property name="Material" value="MapparelGothBoots"/></append>
+    <append xpath="/items/item[@name='apparelGothBoots']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelGothPants']"><property name="Material" value="MapparelGothPants"/></append>
+    <append xpath="/items/item[@name='apparelGothPants']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelPressboyCap']"><property name="Material" value="MapparelPressboyCap"/></append>
+    <append xpath="/items/item[@name='apparelPressboyCap']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelSuitJacket']"><property name="Material" value="MapparelSuitJacket"/></append>
+    <append xpath="/items/item[@name='apparelSuitJacket']"><property name="Weight" value="1"/></append>
+    <append xpath="/items/item[@name='apparelTShirtZU']"><property name="Material" value="MapparelTShirtZU"/></append>
+    <append xpath="/items/item[@name='apparelTShirtZU']"><property name="Weight" value="1"/></append>
+    <append xpath="/items">
+         <!-- Create disassemble items (bundles) -->
+		<item name="dapparelScrapBase">
+            <property name="DescriptionKey" value="dapparelScrapBundlesDesc"/>
+            <property name="CustomIcon" value="resourceSewingKit"/>
+            <property name="CustomIconTint" value="120,100,250"/>
+            <property name="ItemTypeIcon" value="treasure"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MapparelCoatLeatherDuster"/>
+			<property name="Weight" value="100"/>
+            <property name="Stacknumber" value="500"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="1"/>
+            <property name="Group" value="Resources"/>
+            <property name="CraftingIngredientTime" value="0.2"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="open_suitcase"/>
+            </property>
+        </item>
+        <item name="dapparelCoatLeatherDuster">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelCoatLeatherDuster"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelCoatLeatherDusterSchematic,resourceLeather"/>
+                <property name="Create_item_count" value="1,12"/>
+            </property>
+        </item>
+        <item name="dapparelCowboyHat">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelCowboyHat"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelCowboyHatSchematic,resourceLeather"/>
+                <property name="Create_item_count" value="1,3"/>
+            </property>
+        </item>
+        <item name="dapparelDenimPants">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelDenimPants"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelDenimPantsSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,12"/>
+            </property>
+        </item>
+        <item name="dapparelOveralls">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelOveralls"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelOverallsSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,12"/>
+            </property>
+        </item>
+        <item name="dapparelSuitDressShoes">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelSuitDressShoes"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelSuitDressShoesSchematic,resourceLeather,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="1,2,2"/>
+            </property>
+        </item>
+        <item name="dapparelArmyPants">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelArmyPants"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelArmyPantsSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,12"/>
+            </property>
+        </item>
+        <item name="dapparelArmyShirt">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelArmyShirt"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelArmyShirtSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,12"/>
+            </property>
+        </item>
+        <item name="dapparelCoatJacketLetterZU">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelCoatJacketLetterZU"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelCoatJacketLetterZUSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,10"/>
+            </property>
+        </item>
+        <item name="dapparelBallCap">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelBallCap"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelBallCapSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,2"/>
+            </property>
+        </item>
+        <item name="dapparelCowboyBoots">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelCowboyBoots"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelCowboyBootsSchematic,resourceLeather,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="1,2,2"/>
+            </property>
+        </item>
+        <item name="dapparelFlannelShirt">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelFlannelShirt"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelFlannelShirtSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,10"/>
+            </property>
+        </item>
+        <item name="dapparelSweatshirt">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelSweatshirt"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelSweatshirtSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,12"/>
+            </property>
+        </item>
+        <item name="dapparelRunningShoesRegular">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelRunningShoesRegular"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelRunningShoesRegularSchematic,resourceLeather,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="1,2,2"/>
+            </property>
+        </item>
+        <item name="dapparelCoatPufferCoat">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelCoatPufferCoat"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelCoatPufferCoatSchematic,resourceCloth,resourceFeather,resourceCropCottonPlant"/>
+                <property name="Create_item_count" value="1,15,20,15"/>
+            </property>
+        </item>
+        <item name="dapparelDenimShortsPants">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelDenimShortsPants"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelDenimShortsPantsSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,10"/>
+            </property>
+        </item>
+        <item name="dapparelSkirt">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelSkirt"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelSkirtSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,10"/>
+            </property>
+        </item>
+        <item name="dapparelSkullCap">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelSkullCap"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelSkullCapSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,5"/>
+            </property>
+        </item>
+        <item name="dapparelTShirtPlain">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelTShirtPlain"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelTShirtPlainSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,10"/>
+            </property>
+        </item>
+        <item name="dapparelTankTop">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelTankTop"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelTankTopSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,12"/>
+            </property>
+        </item>
+        <item name="dapparelWornBoots">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelWornBoots"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelWornBootsSchematic,resourceLeather,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="1,2,2"/>
+            </property>
+        </item>
+        <item name="dapparelGothBoots">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelGothBoots"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelGothBootsSchematic,resourceLeather,resourceScrapIron,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="1,2,8,2"/>
+            </property>
+        </item>
+        <item name="dapparelGothPants">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelGothPants"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelGothPantsSchematic,resourceLeather,resourceScrapIron"/>
+                <property name="Create_item_count" value="1,12,30"/>
+            </property>
+        </item>
+        <item name="dapparelHoodySweatshirt">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelHoodySweatshirt"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelHoodySweatshirtSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,20"/>
+            </property>
+        </item>
+        <item name="dapparelCoatJacketGeneric">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelCoatJacketGeneric"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelCoatJacketGenericSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,10"/>
+            </property>
+        </item>
+        <item name="dapparelPressboyCap">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelPressboyCap"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelPressboyCapSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,2"/>
+            </property>
+        </item>
+        <item name="dapparelLongShirt">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelLongShirt"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelLongShirtSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,10"/>
+            </property>
+        </item>
+        <item name="dapparelSuitJacket">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelSuitJacket"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelSuitJacketSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,25"/>
+            </property>
+        </item>
+        <item name="dapparelSuitPants">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelSuitPants"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelSuitPantsSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,15"/>
+            </property>
+        </item>
+        <item name="dapparelTShirtZU">
+            <property name="Extends" value="dapparelScrapBase"/>
+            <property name="Material" value="MapparelTShirtZU"/>
+            <property class="Action0">
+                <property name="Create_item" value="apparelTShirtZUSchematic,resourceCloth"/>
+                <property name="Create_item_count" value="1,12"/>
+            </property>
+        </item>
+		
+		
+		<!-- Create new schematics -->
+        <item name="apparelSchematicBase">
+            <property name="Extends" value="schematicMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="apparelCoatLeatherDuster"/>
+            <property name="Unlocks" value="apparelCoatLeatherDuster"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCoatLeatherDuster" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelCoatLeatherDusterSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelCoatLeatherDuster"/>
+            <property name="Unlocks" value="apparelCoatLeatherDuster"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCoatLeatherDuster" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelCowboyHatSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelCowboyHat"/>
+            <property name="Unlocks" value="apparelCowboyHat"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCowboyHat" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelDenimPantsSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelDenimPants"/>
+            <property name="Unlocks" value="apparelDenimPants"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelDenimPants" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelSkirtSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelSkirt"/>
+            <property name="Unlocks" value="apparelSkirt"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelSkirt" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelOverallsSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelOveralls"/>
+            <property name="Unlocks" value="apparelOveralls"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelOveralls" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelSuitDressShoesSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelSuitDressShoes"/>
+            <property name="Unlocks" value="apparelSuitDressShoes"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelSuitDressShoes" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelArmyPantsSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelArmyPants"/>
+            <property name="Unlocks" value="apparelArmyPants"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelArmyPants" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelArmyShirtSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelArmyShirt"/>
+            <property name="Unlocks" value="apparelArmyShirt"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelArmyShirt" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelCoatJacketLetterZUSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelCoatJacketLetterZU"/>
+            <property name="Unlocks" value="apparelCoatJacketLetterZU"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCoatJacketLetterZU" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelBallCapSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelBallCap"/>
+            <property name="Unlocks" value="apparelBallCap"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelBallCap" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelCowboyBootsSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelCowboyBoots"/>
+            <property name="Unlocks" value="apparelCowboyBoots"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCowboyBoots" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelFlannelShirtSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelFlannelShirt"/>
+            <property name="Unlocks" value="apparelFlannelShirt"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelFlannelShirt" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelSweatshirtSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelSweatshirt"/>
+            <property name="Unlocks" value="apparelSweatshirt"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelSweatshirt" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelRunningShoesRegularSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelRunningShoesRegular"/>
+            <property name="Unlocks" value="apparelRunningShoesRegular"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelRunningShoesRegular" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelCoatPufferCoatSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelCoatPufferCoat"/>
+            <property name="Unlocks" value="apparelCoatPufferCoat"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCoatPufferCoat" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelDenimShortsPantsSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelDenimShortsPants"/>
+            <property name="Unlocks" value="apparelDenimShortsPants"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelDenimShortsPants" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelSkullCapSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelSkullCap"/>
+            <property name="Unlocks" value="apparelSkullCap"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelSkullCap" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item><item name="apparelTShirtPlainSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelTShirtPlain"/>
+            <property name="Unlocks" value="apparelTShirtPlain"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelTShirtPlain" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelTankTopSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelTankTop"/>
+            <property name="Unlocks" value="apparelTankTop"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelTankTop" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelWornBootsSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelWornBoots"/>
+            <property name="Unlocks" value="apparelWornBoots"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelWornBoots" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelGothBootsSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelGothBoots"/>
+            <property name="Unlocks" value="apparelGothBoots"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelGothBoots" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelGothPantsSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelGothPants"/>
+            <property name="Unlocks" value="apparelGothPants"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelGothPants" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelHoodySweatshirtSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelHoodySweatshirt"/>
+            <property name="Unlocks" value="apparelHoodySweatshirt"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelHoodySweatshirt" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelCoatJacketGenericSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelCoatJacketGeneric"/>
+            <property name="Unlocks" value="apparelCoatJacketGeneric"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCoatJacketGeneric" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelPressboyCapSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelPressboyCap"/>
+            <property name="Unlocks" value="apparelPressboyCap"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelPressboyCap" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelLongShirtSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelLongShirt"/>
+            <property name="Unlocks" value="apparelLongShirt"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelLongShirt" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelSuitJacketSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelSuitJacket"/>
+            <property name="Unlocks" value="apparelSuitJacket"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelSuitJacket" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelSuitPantsSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelSuitPants"/>
+            <property name="Unlocks" value="apparelSuitPants"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelSuitPants" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="apparelTShirtZUSchematic">
+            <property name="Extends" value="apparelSchematicBase"/>
+            <property name="CustomIcon" value="apparelTShirtZU"/>
+            <property name="Unlocks" value="apparelTShirtZU"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelTShirtZU" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+	</append>
+</ClothesSchematics>

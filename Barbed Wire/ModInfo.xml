@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Barbed Wire" />
+		<Description value="Be able to craft and place Barbed Wire Sheet" />
+		<Author value="Michael" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

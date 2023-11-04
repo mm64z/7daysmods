@@ -1,0 +1,15 @@
+<configs>
+	<set xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">
+		ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP
+	</set>
+	<append xpath="/items/item[contains(@name,'ammo44MagnumBullet')]/effect_group/passive_effect[@name='EntityDamage' or @name='BlockDamage']/@tags">
+		,perkDeadEye
+	</append>
+	<append xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='Tags']/@value">
+		,modGunShotgunTubeExtenderMagazine
+	</append>
+	<!-- <set xpath="items/item[@name='gunRifleT2LeverActionRifle']/effect_group/passive_effect[@name='EntityDamage' and @operation='base_add']/@value">
+		-12
+	</set> --> 
+</configs>
+

@@ -1,0 +1,6 @@
+<configs>
+	<append xpath="/blocks/block[@name='barbedWireSheet']">
+		<property name="AllowAllRotations" value="true"/> <!-- enables the 45 degree rotations -->
+		<property name="OnlySimpleRotations" value="true"/>
+	</append>
+</configs>

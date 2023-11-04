@@ -1,0 +1,10 @@
+
+<configs>
+  <append xpath="/recipes">
+	<recipe name="meleeToolTorchScreamer" count="1">
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="resourceCloth" count="1"/>
+		<ingredient name="resourceWood" count="1"/>
+	</recipe>
+  </append>
+</configs>

@@ -1,4 +1,12 @@
 <configs>
-	
-	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'zombieSpider')]/@name">zombieStripper</set>
+	<!-- replace zombie spider model -->
+	<set xpath="/entity_classes/entity_class[@name='zombieSpider']/property[@name='Mesh']/@value">
+		@:Entities/Traders/Prefabs/TraderJoel.prefab
+	</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']/property[@name='Mesh']/@value">
+		@:Entities/Traders/Prefabs/TraderHugh.prefab
+	</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSpiderRadiated']/property[@name='Mesh']/@value">
+		@:Entities/Traders/Prefabs/TraderJen.prefab
+	</set>
 </configs>

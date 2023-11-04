@@ -11,9 +11,9 @@
   <!-- If players core temp is below this value they will not dry off. -->
   <set xpath="weathersurvival/property[@name='DryTempCutoff']/@value">50</set>
   <!-- How much change you feel in the outside air temperature when you are 100% wet. -->
-  <set xpath="weathersurvival/property[@name='OutsideTempChangeWhenInSun']/@value">-10</set>
+  <set xpath="weathersurvival/property[@name='OutsideTempChangeWhenInSun']/@value">5</set>
   <!-- How much 100% cloud cover can affect how much the sun warms you. -->
-  <set xpath="weathersurvival/property[@name='OutsideTempChangeWhenInSunCloudScale']/@value">10</set>
+  <set xpath="weathersurvival/property[@name='OutsideTempChangeWhenInSunCloudScale']/@value">-10</set>
   <!-- How much the temp changes when you run. -->
   <set xpath="weathersurvival/property[@name='OutsideTempShiftWhenRunning']/@value">20</set>
   <!-- How much the temp changes when you walk. -->

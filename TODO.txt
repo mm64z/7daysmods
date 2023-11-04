@@ -1,2 +1,30 @@
 Modify descriptions for skill levels
 Modify descriptions for perk levels
+
+
+Does hidden need to be hidden, or use str/frt?
+Make base stat unbuyable
+Add to base stat for all skills
+Modify skill point costs for all 2- skills
+Base stat gives benefit
+
+
+deep cuts remove damage buff (mainly bleed)
+
+
+bundles
+lunchbox -> toolbox
+medical -> medical supplies
+clothes -> backpack/duffel bags
+  desert weathered backpack
+  snow green luggage
+  wasteland 
+piggybank -> mannequin
+ammo -> hardened chest
+
+
+
+
+Progression
+pine -> desert -> snow -> wasteland
+0 -> 0.5 -> 1 -> 1.5

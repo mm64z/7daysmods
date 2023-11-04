@@ -1,0 +1,19 @@
+<configs>
+  <append xpath="/blocks">
+	<block name="wallTorchScreamerLightPlayer">
+		<property name="Extends" value="wallTorchLightPlayer"/>
+		
+		<property name="HeatMapStrength" value="4"/>
+		<!-- 
+		<property name="Model" value="Entities/Lighting/torch_wall_playerPrefab"/>
+		<property name="StabilitySupport" value="false"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="wallTorchLight"/>
+		<property name="Stacknumber" value="50"/>
+		<property name="Class" value="TorchHeatMap"/> <!-- HeatMapFrequency is not used. 1 min realtime updates that scale to match world time rate ->
+		<property name="HeatMapStrength" value="2"/>
+		<property name="HeatMapTime" value="4000"/> <!-- 1000 per world hour. str1, t6000, f5 = 2.5; str1, t9000, f5 = 4; str4.05, t12000, f15 = 4.05-8.1; ->
+		<property name="DescriptionKey" value="torchPlayerGroupDesc"/> -->
+	</block>
+  </append>
+</configs>

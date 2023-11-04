@@ -1,0 +1,5 @@
+<configs>
+	
+	<!-- <set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'zombieSpiderFeral')]/@name">zombiePartyGirlFeral</set> -->
+	<!-- <set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'zombieSpider')]/@name">zombiePartyGirl</set> -->
+</configs>

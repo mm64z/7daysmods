@@ -1,0 +1,170 @@
+<LunchBunch>
+	<append xpath="/items">
+		<!-- New bundle containers -->
+		<item name="resourceBundlingBackpack">
+			<property name="Extends" value="resourceWood"/>
+			<property name="CustomIcon" value="cntBackpack01"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="resourceBundlingInsulatedBag">
+			<property name="Extends" value="resourceWood"/>
+			<property name="CustomIcon" value="cntToolBoxOpen"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="resourceBundlingCaseSmall">
+			<property name="Extends" value="resourceWood"/>
+			<property name="CustomIcon" value="cntChest01"/>
+			<property name="Material" value="Mwood"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="resourcePiggyBank">
+			<property name="Extends" value="resourceWood"/>
+			<property name="CustomIcon" value="decoMannequinMale"/>
+			<property name="Material" value="MresourceBrokenGlass"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<!-- Ammo bundles -->
+		<item name="bundleAmmoBase">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/> <!-- upper left icon treasure,explosion,gunsmithing,computer,book,book_read,campfire,forge,bundle -->
+			<property name="CustomIcon" value="cntChest01"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Ammo"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="open_cellar_wood"/>
+				<property name="Create_item" value="resourceBundlingCaseSmall"/>
+				<property name="Create_item_count" value="1, 1000"/>
+			</property>
+		</item>
+		<item name="bundleAmmo9mm">
+			<property name="Extends" value="bundleAmmoBase"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBundlingCaseSmall,ammo9mmBulletBall"/>
+			</property>
+		</item>
+		<item name="bundleAmmoShotgunShell">
+			<property name="Extends" value="bundleAmmoBase"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBundlingCaseSmall,ammoShotgunShell"/>
+			</property>
+		</item>
+		<item name="bundleAmmoJunkTurret">
+			<property name="Extends" value="bundleAmmoBase"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBundlingCaseSmall,ammoJunkTurretRegular"/>
+				<property name="Create_item_count" value="1,3000"/>
+			</property>
+		</item>
+		<item name="bundleAmmo762mmBulletBall">
+			<property name="Extends" value="bundleAmmoBase"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBundlingCaseSmall,ammo762mmBulletBall"/>
+			</property>
+		</item>
+		<item name="bundleAmmo44MagnumBulletBall">
+			<property name="Extends" value="bundleAmmoBase"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBundlingCaseSmall,ammo44MagnumBulletBall"/>
+			</property>
+		</item>
+		<item name="bundleAmmoDartIron">
+			<property name="Extends" value="bundleAmmoBase"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBundlingCaseSmall,ammoDartIron"/>
+			</property>
+		</item>
+		<item name="bundleAmmoArrowIron">
+			<property name="Extends" value="bundleAmmoBase"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBundlingCaseSmall,ammoArrowIron"/>
+			</property>
+		</item>
+		<item name="bundleAmmoCrossbowBoltIron">
+			<property name="Extends" value="bundleAmmoBase"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBundlingCaseSmall,ammoCrossbowBoltIron"/>
+			</property>
+		</item>
+		
+		<!-- Foods and Survival bundles -->
+		<item name="bundleLunchBox">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/> <!-- upper left icon treasure,explosion,gunsmithing,computer,book,book_read,campfire,forge,bundle -->
+			<property name="CustomIcon" value="cntToolBoxClosed"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Food/Cooking"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="Create_item" value="foodMeatStew,drinkJarRedTea,foodPumpkinBread,drinkJarCoffee,resourceBundlingInsulatedBag"/>
+				<property name="Create_item_count" value="1,1,1,1,1"/>
+			</property>
+		</item>
+		<item name="bundleMedicalKit">
+			<property name="Extends" value="bundleLunchBox"/>
+			<property name="CustomIcon" value="cntMedicLootPileA"/>
+			<property class="Action0">
+				<property name="Create_item" value="medicalFirstAidKit,medicalFirstAidBandage,medicalSplint,resourceBundlingCaseSmall"/>
+				<property name="Create_item_count" value="1,5,2,1"/>
+			</property>
+		</item>
+		<item name="bundleHeatSurvivalKit">
+			<property name="Extends" value="bundleLunchBox"/>
+			<property name="CustomIcon" value="cntBackpack01"/>
+			<property name="Group" value="Clothing"/>    
+			<property class="Action0">
+				<property name="Create_item" value="apparelCowboyHat,apparelCoatLeatherDuster,apparelTankTop,apparelDenimShortsPants,resourceBundlingBackpack"/>
+				<property name="Create_item_count" value="1,1,1,1,1"/>
+			</property>
+		</item>
+		<item name="bundleColdSurvivalKit">
+			<property name="Extends" value="bundleLunchBox"/>
+			<property name="CustomIcon" value="cntLuggageMediumClosed"/>
+			<property name="CustomIconTint" value="2f632f"/>
+			<property name="Group" value="Clothing"/>
+			<property class="Action0">
+				<property name="Create_item" value="drinkYuccaJuiceSmoothie,apparelCoatPufferCoat,apparelHoodySweatshirt,apparelArmyPants,resourceBundlingBackpack"/>
+				<property name="Create_item_count" value="10,1,1,1,1"/>
+			</property>
+		</item>
+		<!-- Piggy Bank bundles -->
+	   <item name="bundlePiggyBankBase">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/> <!-- upper left icon treasure,explosion,gunsmithing,computer,book,book_read,campfire,forge,bundle -->
+			<property name="CustomIcon" value="decoMannequinMale"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Resources"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="glassdestroy"/>
+			</property>
+		</item>
+		<item name="bundlePiggyBankDukes">
+			<property name="Extends" value="bundlePiggyBankBase"/>
+			<property class="Action0">
+				<property name="Create_item" value="casinoCoin,resourceBrokenGlass"/>
+				<property name="Create_item_count" value="50000,1"/>
+			</property>
+		</item>
+		<item name="bundlePiggyBankCash">
+			<property name="Extends" value="bundlePiggyBankBase"/>
+			<property class="Action0">
+				<property name="Create_item" value="oldCash,resourceBrokenGlass"/>
+				<property name="Create_item_count" value="25000,1"/>
+			</property>
+		</item>
+	</append>
+</LunchBunch>

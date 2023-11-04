@@ -1,0 +1,87 @@
+<LunchBunch>
+	<append xpath="/recipes">
+		<recipe name="resourceBundlingBackpack" count="1" craft_time="3">    
+			<ingredient name="resourceSewingKit" count="1"/>
+			<ingredient name="resourceCloth" count="10"/>
+		</recipe>
+		<recipe name="resourceBundlingCaseSmall" count="1" craft_time="3">    
+			<ingredient name="resourceWood" count="8"/>
+			<ingredient name="resourceNail" count="3"/>
+		</recipe>
+		<recipe name="resourceBundlingInsulatedBag" count="2" craft_time="3">
+			<ingredient name="resourceSewingKit" count="1"/>
+			<ingredient name="resourceLeather" count="10"/>
+			<ingredient name="resourceScrapPolymers" count="4"/>
+		</recipe>
+		<recipe name="resourcePiggyBank" count="1" craft_time="3" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceClayLump" count="1"/>
+		</recipe>
+		<recipe name="bundleLunchBox" count="1" craft_time="5" craft_exp_gain="0">    
+			<ingredient name="foodMeatStew" count="1"/>
+			<ingredient name="drinkJarRedTea" count="1"/>
+			<ingredient name="foodPumpkinBread" count="1"/>
+			<ingredient name="drinkJarCoffee" count="1"/>
+			<ingredient name="resourceBundlingInsulatedBag" count="1"/>
+		</recipe>
+		<recipe name="bundleMedicalKit" count="1" craft_time="5" craft_exp_gain="0">    
+			<ingredient name="medicalFirstAidKit" count="1"/>
+			<ingredient name="medicalFirstAidBandage" count="5"/>
+			<ingredient name="medicalSplint" count="2"/>
+			<ingredient name="resourceBundlingCaseSmall" count="1"/>
+		</recipe>
+		<recipe name="bundleHeatSurvivalKit" count="1" craft_time="5" craft_exp_gain="0">
+			<ingredient name="apparelCowboyHat" count="1"/>
+			<ingredient name="apparelCoatLeatherDuster" count="1"/>
+			<ingredient name="apparelTankTop" count="1"/>
+			<ingredient name="apparelDenimShortsPants" count="1"/>
+			<ingredient name="resourceBundlingBackpack" count="1"/>
+		</recipe>
+		<recipe name="bundleColdSurvivalKit" count="1" craft_time="5" craft_exp_gain="0">    
+			<ingredient name="drinkYuccaJuiceSmoothie" count="10"/>
+			<ingredient name="apparelCoatPufferCoat" count="1"/>
+			<ingredient name="apparelHoodySweatshirt" count="1"/>
+			<ingredient name="apparelArmyPants" count="1"/>
+			<ingredient name="resourceBundlingBackpack" count="1"/>
+		</recipe>
+		<recipe name="bundlePiggyBankDukes" count="1" craft_time="6" craft_exp_gain="0">    
+			<ingredient name="casinoCoin" count="50000"/>
+			<ingredient name="resourcePiggyBank" count="1"/>
+		</recipe>
+		<recipe name="bundlePiggyBankCash" count="1" craft_time="6" craft_exp_gain="0">    
+			<ingredient name="oldCash" count="25000"/>
+			<ingredient name="resourcePiggyBank" count="1"/>
+		</recipe>
+		<recipe name="bundleAmmo9mm" count="1" craft_time="6" craft_exp_gain="0">    
+			<ingredient name="ammo9mmBulletBall" count="1000"/>
+			<ingredient name="resourceBundlingCaseSmall" count="1"/>
+		</recipe>
+		<recipe name="bundleAmmoShotgunShell" count="1" craft_time="6" craft_exp_gain="0">    
+			<ingredient name="ammoShotgunShell" count="1000"/>
+			<ingredient name="resourceBundlingCaseSmall" count="1"/>
+		</recipe>
+		<recipe name="bundleAmmoJunkTurret" count="1" craft_time="6" craft_exp_gain="0">    
+			<ingredient name="ammoJunkTurretRegular" count="3000"/>
+			<ingredient name="resourceBundlingCaseSmall" count="1"/>
+		</recipe>
+		<recipe name="bundleAmmo762mmBulletBall" count="1" craft_time="6" craft_exp_gain="0">    
+			<ingredient name="ammo762mmBulletBall" count="1000"/>
+			<ingredient name="resourceBundlingCaseSmall" count="1"/>
+		</recipe>
+		<recipe name="bundleAmmo44MagnumBulletBall" count="1" craft_time="6" craft_exp_gain="0">    
+			<ingredient name="ammo44MagnumBulletBall" count="1000"/>
+			<ingredient name="resourceBundlingCaseSmall" count="1"/>
+		</recipe>
+		<recipe name="bundleAmmoDartIron" count="1" craft_time="6" craft_exp_gain="0">    
+			<ingredient name="ammoDartIron" count="1000"/>
+			<ingredient name="resourceBundlingCaseSmall" count="1"/>
+		</recipe>
+		<recipe name="bundleAmmoArrowIron" count="1" craft_time="6" craft_exp_gain="0">    
+			<ingredient name="ammoArrowIron" count="1000"/>
+			<ingredient name="resourceBundlingCaseSmall" count="1"/>
+		</recipe>
+		<recipe name="bundleAmmoCrossbowBoltIron" count="1" craft_time="6" craft_exp_gain="0">    
+			<ingredient name="ammoCrossbowBoltIron" count="1000"/>
+			<ingredient name="resourceBundlingCaseSmall" count="1"/>
+		</recipe>
+	</append>
+</LunchBunch>

@@ -1,0 +1,1 @@
+meleeToolTorchScreamer,items,Tool,,,Torch (Screamer),,Fackel,Antorcha,Torche,Torcia,松明,횃불,Pochodnia,Tocha,Факел,Meşale,火把,火把,Antorcha

@@ -1,0 +1,12 @@
+<configs>
+	<set xpath="/items/item[@name='gunMGT0PipeMachineGun']/property[@class='Action0']/property[@name='Magazine_items']/@value">
+		ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP
+	</set>
+	<append xpath="/items/item[contains(@name,'ammo9mmBullet')]/effect_group/passive_effect[@name='EntityDamage' or @name='BlockDamage']/@tags">
+		,perkMachineGunner
+	</append>
+	<!-- <set xpath="items/item[@name='gunMGT0PipeMachineGun']/effect_group/passive_effect[@name='EntityDamage' and @operation='base_add']/@value">
+		-12
+	</set> -->
+</configs>
+

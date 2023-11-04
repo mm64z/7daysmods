@@ -1,0 +1,6 @@
+<configs>
+  <append xpath="/items/item[@name='drugPainkillers']">
+	<property name="UnlockedBy" value="perkPhysician">
+  </append>
+  
+</configs>
