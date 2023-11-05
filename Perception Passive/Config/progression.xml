@@ -10,7 +10,9 @@
     </effect_group>
   </append>
  <set xpath="/progression/attributes/attribute[@name='attPerception']/@desc_key">Perception is the measure of your sensory awareness. Increasing Perception raises the headshot bonus and dismemberment chance with spears, rifles and explosive weapons. Also find better loot, decrease looting time, and find buried treasure more easily.</set>
+  <!-- make sure all of lucky looter and treasure hunter in -->
 
 
-   <remove xpath="/progression/perks/perk[@name='perkLuckyLooter']"/>
+  <!-- Remove treasure hunter -->
+  <remove xpath="/progression/perks/perk[@name='perkLuckyLooter']"/>
 </configs>

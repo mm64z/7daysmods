@@ -3,14 +3,6 @@
 
 
 <!--====================================== Agility ===================================-->
-  <!-- agility gives melee and reload speed -->
-  <append xpath="/progression/attributes/attribute[@name='attAgility']">
-    <effect_group>
-        <passive_effect name="AttacksPerMinute" operation="perc_add" level="1,10" value="0.02,0.2"/>
-        <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="1,10" value="0.02,0.2" tags="deployed" invert_tag_check="true"/>
-    </effect_group>
-  </append>
-
-  <set xpath="/progression/attributes/attribute[@name='attAgility']/@desc_key">Agility is the measure of your athletic prowess. Increase melee attack speed and reload speed</set>
-
+  <!-- agility gives a dodge chance or movement speed? -->
+  <!-- TODO -->
 </configs>

@@ -4,6 +4,8 @@
 
 <!--================================= Strength ==================================================-->
 
+  <!-- move spear master, machine gunner to strength -->
+
  <!-- merge pummel pete, brawler, skull crusher -->
  <set xpath="/progression/perks/perk[@name='perkPummelPete']@desc_key">Specialize in destroying enemies with clubs, sledgehammers, and knuckles</set>
   <append xpath="/progression/perks/perk[@name='perkPummelPete']">
@@ -85,7 +87,6 @@
       </triggered_effect>
     </effect_group>
   </append>
-
 
   <!-- strength dismember chance perk -->
   <append xpath="/progression/perks">
@@ -172,7 +173,7 @@
   <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='4']/requirement/@progression_name">attStrength</set>
   <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='5']/requirement/@progression_name">attStrength</set>
 
-
+  <!-- remove boomstick -->
  <remove xpath="/progression/perks/perk[@name='perkSkullCrusher']"/>
 
 </configs>

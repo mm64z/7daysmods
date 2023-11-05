@@ -10,7 +10,8 @@
 		</item>
 		<item name="resourceBundlingInsulatedBag">
 			<property name="Extends" value="resourceWood"/>
-			<property name="CustomIcon" value="cntToolBoxOpen"/>
+			<property name="CustomIcon" value="cntToolBoxOpenWhite"/>
+			<property name="CustomIconTint" value="7F6868"/>
 			<property name="Material" value="Mcloth"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="Group" value="Resources"/>
@@ -99,7 +100,8 @@
 		<item name="bundleLunchBox">
 			<property name="Extends" value="resourceRockSmallBundle"/>
 			<property name="ItemTypeIcon" value="bundle"/> <!-- upper left icon treasure,explosion,gunsmithing,computer,book,book_read,campfire,forge,bundle -->
-			<property name="CustomIcon" value="cntToolBoxClosed"/>
+			<property name="CustomIcon" value="cntToolBoxClosedWhite"/>
+			<property name="CustomIconTint" value="7F6868"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="Group" value="Food/Cooking"/>
 			<property class="Action0">

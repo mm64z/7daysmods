@@ -1,18 +1,8 @@
 <configs>
 
 <!--====================================== Agility ===================================-->
-<!-- Move Cardio to Agility -->
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/@parent">skillAthletics</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel01</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel03</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel05</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel07</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel10</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='1']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='2']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='3']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='4']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='5']/requirement/@progression_name">attAgility</set>
+
+<!-- add flurry of blows, huntsman, lockpicking -->
 
 <!-- Move Lock-picking to Agility -->
   <set xpath="/progression/perks/perk[@name='perkLockPicking']/@parent">skillStealth</set>

@@ -2,33 +2,8 @@
 <configs>
 
 <!--===================================== Fortitude ==================================-->
- <!-- move master chef to fortitude -->
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/@parent">skillSurvival</set>
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel01</set>
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel03</set>
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel05</set>
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel07</set>
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel10</set>
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='1']/requirement/@progression_name">attFortitude</set>
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='2']/requirement/@progression_name">attFortitude</set>
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='3']/requirement/@progression_name">attFortitude</set>
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='4']/requirement/@progression_name">attFortitude</set>
-  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='5']/requirement/@progression_name">attFortitude</set>
-
-
-<!-- Move Boomstick to Fortitude -->
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/@parent">skillFortitudeCombat</set>
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel01</set>
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel03</set>
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel05</set>
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel07</set>
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel10</set>
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='1']/requirement/@progression_name">attFortitude</set>
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='2']/requirement/@progression_name">attFortitude</set>
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='3']/requirement/@progression_name">attFortitude</set>
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='4']/requirement/@progression_name">attFortitude</set>
-  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='5']/requirement/@progression_name">attFortitude</set>
-
+  <!-- add hp max, daring adventurer, charismatic nature -->
+  
   <!-- add perk to increase max health -->
   <append xpath="/progression/perks">
     <perk name="perkMaxHealth" parent="skillSurvival" name_key="Healthy Heart" desc_key="Increase Max Health by 20 per level" icon="ui_game_symbol_healing_factor">
