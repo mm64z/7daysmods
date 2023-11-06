@@ -28,7 +28,7 @@
   <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='4']/requirement/@progression_name">attPerception</set>
   <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='5']/requirement/@progression_name">attPerception</set>
 
-  <!-- move archery, gunslinger, dead eye, penetrator, boomstick, living off the land to perception -->
+  <!-- move archery, gunslinger, boomstick, living off the land to perception -->
 
 <!-- guns headshot -->
 <append xpath="/progression/perks">
