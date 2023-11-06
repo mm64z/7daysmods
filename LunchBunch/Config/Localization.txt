@@ -1,6 +1,8 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
 bundleLunchBox,items,Item,,,Lunch Box,,,,,,,,,,,,,,
 bundleLunchBoxDesc,items,Item,,,A lukewarm lunch in an insulated bag. Just like mom used to make. Open to gain the tasty items contained within.,,,,,,,,,,,,,,
+bundleHeartyLunchBox,items,Item,,,Hearty Lunch Box,,,,,,,,,,,,,,
+bundleHeartyLunchBoxDesc,items,Item,,,A lukewarm Hearty Lunch in an insulated bag. Just like mom used to make. Open to gain the tasty items contained within.,,,,,,,,,,,,,,
 bundleMedicalKit,items,Item,,,Medical Bundle,,,,,,,,,,,,,,
 bundleMedicalKitDesc,items,Item,,,Contains various materials to patch yourself up when things get rough. And they will get rough.,,,,,,,,,,,,,,
 resourceBundlingBackpack,items,Item,,,Empty Backpack,,,,,,,,,,,,,,

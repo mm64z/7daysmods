@@ -23,6 +23,13 @@
 			<ingredient name="drinkJarCoffee" count="1"/>
 			<ingredient name="resourceBundlingInsulatedBag" count="1"/>
 		</recipe>
+    <recipe name="bundleHeartyLunchBox" count="1" craft_time="5" craft_exp_gain="0">    
+			<ingredient name="foodHoboStew" count="1"/>
+			<ingredient name="drinkJarRedTea" count="1"/>
+			<ingredient name="foodPumpkinBread" count="1"/>
+			<ingredient name="drinkJarCoffee" count="1"/>
+			<ingredient name="resourceBundlingInsulatedBag" count="1"/>
+		</recipe>
 		<recipe name="bundleMedicalKit" count="1" craft_time="5" craft_exp_gain="0">    
 			<ingredient name="medicalFirstAidKit" count="1"/>
 			<ingredient name="medicalFirstAidBandage" count="5"/>
