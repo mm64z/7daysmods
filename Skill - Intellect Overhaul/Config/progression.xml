@@ -1,7 +1,26 @@
 <configs>
 <!--================================== Intellect ===============================-->
   <!-- move demo expert to intellect -->
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/@parent">skillIntellectCombat</set>
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='1']/requirement/@desc_key">reqIntellectLevel01</set>
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='2']/requirement/@desc_key">reqIntellectLevel03</set>
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='3']/requirement/@desc_key">reqIntellectLevel05</set>
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='4']/requirement/@desc_key">reqIntellectLevel07</set>
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='5']/requirement/@desc_key">reqIntellectLevel10</set>
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='1']/requirement/@progression_name">attIntellect</set>
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='2']/requirement/@progression_name">attIntellect</set>
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='3']/requirement/@progression_name">attIntellect</set>
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='4']/requirement/@progression_name">attIntellect</set>
+  <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/level_requirements[@level='5']/requirement/@progression_name">attIntellect</set>
+
   <!-- move master chef to intellect -->
+  <set xpath="/progression/perks/perk[@name='perkMasterChef']/@parent">skillIntellectCraftsmanship</set>
+  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='1']/requirement/@desc_key">reqIntellectLevel01</set>
+  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='2']/requirement/@desc_key">reqIntellectLevel04</set>
+  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='3']/requirement/@desc_key">reqIntellectLevel07</set>
+  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='1']/requirement/@progression_name">attIntellect</set>
+  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='2']/requirement/@progression_name">attIntellect</set>
+  <set xpath="/progression/perks/perk[@name='perkMasterChef']/level_requirements[@level='3']/requirement/@progression_name">attIntellect</set>
 
   
 </configs>

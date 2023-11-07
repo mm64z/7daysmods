@@ -1,0 +1,10 @@
+<configs>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkArchery')]/@value" op="remove">attAgility</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkArchery')]/@value" op="add">attPerception</csv>
+
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkGunslinger')]/@value" op="remove">attAgility</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkGunslinger')]/@value" op="add">attPerception</csv>
+
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkBoomstick')]/@value" op="remove">attStrength</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkBoomstick')]/@value" op="add">attPerception</csv>
+</configs>

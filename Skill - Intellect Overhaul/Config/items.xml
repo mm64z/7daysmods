@@ -1,0 +1,6 @@
+<configs>
+  
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkDemolitionsExpert')]/@value" op="remove">attPerception</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkDemolitionsExpert')]/@value" op="add">attIntellect</csv>
+
+</configs>

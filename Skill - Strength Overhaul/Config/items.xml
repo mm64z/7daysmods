@@ -4,8 +4,18 @@
 
 <configs>
   <!-- modify unlocks -->
-  <set xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='UnlockedBy']/@value">perkPummelPete,meleeToolSledgehammerIronSchematic</set>
-  <set xpath="/items/item[@name='meleeKnucklesIron']/property[@name='UnlockedBy']/@value">perkPummelPete,meleeKnucklesIronSchematic</set>
+  <!-- <set xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='UnlockedBy']/@value">perkPummelPete,meleeToolSledgehammerIronSchematic</set> -->
+  <!-- <set xpath="/items/item[@name='meleeKnucklesIron']/property[@name='UnlockedBy']/@value">perkPummelPete,meleeKnucklesIronSchematic</set> -->
+
+
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkBrawler')]/@value" op="remove">attFortitude</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkBrawler')]/@value" op="add">attStrength</csv>
+
+    <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkMachineGunner')]/@value" op="remove">attFortitude</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkMachineGunner')]/@value" op="add">attStrength</csv>
+
+    <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkJavelinMaster')]/@value" op="remove">attPerception</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkJavelinMaster')]/@value" op="add">attStrength</csv>
 
   <!-- staminams reference combo perk -->
   <!-- <set xpath="/items/item[@name='meleeKnucklesLeather']/effect_group[@name='meleeKnucklesLeather']/passive_effect[@name='DegradationMax']/@tags">perkPummelPete</set> -->

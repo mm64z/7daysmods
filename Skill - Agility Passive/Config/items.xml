@@ -1,0 +1,8 @@
+<configs>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkFlurryOfAgility')]/@value" op="add">perkFlurryOfBlows</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkFlurryOfPerception')]/@value" op="add">perkFlurryOfBlows</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkFlurryOfStrength')]/@value" op="add">perkFlurryOfBlows</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkFlurryOfFortitude')]/@value" op="add">perkFlurryOfBlows</csv>
+  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkFlurryOfIntellect')]/@value" op="add">perkFlurryOfBlows</csv>
+
+</configs>

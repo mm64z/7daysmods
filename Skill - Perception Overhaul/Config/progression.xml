@@ -1,5 +1,6 @@
 <configs>
 <!--================================== Perception ===============================-->
+<!-- move archery, gunslinger, boomstick, living off the land to perception -->
 
 <!-- move archery to perception -->
   <set xpath="/progression/perks/perk[@name='perkArchery']/@parent">skillPerceptionCombat</set>
@@ -13,22 +14,51 @@
   <set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='3']/requirement/@progression_name">attPerception</set>
   <set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='4']/requirement/@progression_name">attPerception</set>
   <set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='5']/requirement/@progression_name">attPerception</set>
+  
+
+  
+  <!-- move gunslinger to perception -->
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/@parent">skillPerceptionCombat</set>
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel01</set>
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel03</set>
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel05</set>
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel07</set>
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel10</set>
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='1']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='2']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='3']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='4']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='5']/requirement/@progression_name">attPerception</set>
+  
+
+  
+  <!-- move boomstick to perception -->
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/@parent">skillPerceptionCombat</set>
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel01</set>
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel03</set>
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel05</set>
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel07</set>
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel10</set>
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='1']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='2']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='3']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='4']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkBoomstick']/level_requirements[@level='5']/requirement/@progression_name">attPerception</set>
+  
 
 
-  <!-- move huntsman to perception -->
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/@parent">skillPerceptionGeneral</set>
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel01</set>
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel03</set>
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel05</set>
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel07</set>
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel10</set>
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='1']/requirement/@progression_name">attPerception</set>
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='2']/requirement/@progression_name">attPerception</set>
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='3']/requirement/@progression_name">attPerception</set>
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='4']/requirement/@progression_name">attPerception</set>
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='5']/requirement/@progression_name">attPerception</set>
-
-  <!-- move archery, gunslinger, boomstick, living off the land to perception -->
+  <!-- move Living off the Land to perception -->
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/@parent">skillPerceptionScavenging</set>
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel01</set>
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel03</set>
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel05</set>
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel07</set>
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel10</set>
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='1']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='2']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='3']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='4']/requirement/@progression_name">attPerception</set>
+  <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='5']/requirement/@progression_name">attPerception</set>
 
 <!-- guns headshot -->
 <append xpath="/progression/perks">
@@ -52,7 +82,7 @@
 
 <!-- increased ranged cripple -->
 <append xpath="/progression/perks">
-  <perk name="perkRangedCripple" parent="skillPerceptionCombat" name_key="Fuck Kneecaps" desc_key="Leg shots have a 20% chance per level to cripple" icon="ui_game_symbol_brokenbone">
+  <perk name="perkRangedCripple" parent="skillPerceptionCombat" name_key="Arrow to the Knee" desc_key="Leg shots have a 20% chance per level to cripple" icon="ui_game_symbol_brokenbone">
     <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
     <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
     <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
@@ -94,9 +124,6 @@
   </perk>
 </append>
 
-  <!-- Remove treasure hunter, lucky looter, salvage operations -->
-  <!-- Intellect passive should remove salvage operators -->
-  <remove xpath="/progression/perks/perk[@name='perkSalvageOperations']"/>
 
 
 </configs>

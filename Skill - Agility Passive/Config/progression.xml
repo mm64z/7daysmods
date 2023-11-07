@@ -6,4 +6,25 @@
   <!-- agility gives a dodge chance or movement speed? -->
   <!-- TODO -->
   <!-- agility gives flurry of blows -->
+  <!-- readd flurry of blows, and apply to all melee-->
+  <append xpath="/progression/attributes/attribute[@name='attAgility']">
+
+      <effect_group>
+          <passive_effect name="AttacksPerMinute" operation="perc_add" level="2,10" value=".1,.25" tags="melee"/>
+      </effect_group>
+
+      <effect_group>
+        <requirement name="HoldingItemHasTags" tags="melee"/>
+        <requirement name="ProgressionLevel" progression_name="attAgility" operation="GT" value="6"/>
+          <triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Stamina" operation="add" value="30" delay="1.0"/>
+      </effect_group>
+  </append>
+  
+  <set xpath="/progression/attributes/attribute[@name='attAgility']/@desc_key">Agility is the measure of your physical dexerity. Increasing Agility raises the headshot bonus and dismemberment chance with agility-based weapons. Also attack faster with melee weapons.</set>
+
+  <remove xpath="/progression/perks/perk[@name='perkFlurryOfAgility']"/>
+  <remove xpath="/progression/perks/perk[@name='perkFlurryOfPerception']"/>
+  <remove xpath="/progression/perks/perk[@name='perkFlurryOfStrength']"/>
+  <remove xpath="/progression/perks/perk[@name='perkFlurryOfFortitude']"/>
+  <remove xpath="/progression/perks/perk[@name='perkFlurryOfIntellect']"/>
 </configs>

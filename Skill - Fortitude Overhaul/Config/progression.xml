@@ -3,10 +3,32 @@
 
 <!--===================================== Fortitude ==================================-->
   <!-- add hp max, daring adventurer, charismatic nature -->
-  
+  <!-- Move Daring Adventurer to Fortitude -->
+  <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/@parent">skillFortitudeSurvival</set>
+  <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel01</set>
+  <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel04</set>
+  <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel07</set>
+  <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel10</set>
+  <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='1']/requirement/@progression_name">attFortitude</set>
+  <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='2']/requirement/@progression_name">attFortitude</set>
+  <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='3']/requirement/@progression_name">attFortitude</set>
+  <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='4']/requirement/@progression_name">attFortitude</set>
+  <!-- Move Charismatic Nature to Fortitude -->
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/@parent">skillFortitudeSurvival</set>
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel05</set>
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel07</set>
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel08</set>
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel09</set>
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel10</set>
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='1']/requirement/@progression_name">attFortitude</set>
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='2']/requirement/@progression_name">attFortitude</set>
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='3']/requirement/@progression_name">attFortitude</set>
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='4']/requirement/@progression_name">attFortitude</set>
+  <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='5']/requirement/@progression_name">attFortitude</set>
+
   <!-- add perk to increase max health -->
   <append xpath="/progression/perks">
-    <perk name="perkMaxHealth" parent="skillSurvival" name_key="Healthy Heart" desc_key="Increase Max Health by 20 per level" icon="ui_game_symbol_healing_factor">
+    <perk name="perkMaxHealth" parent="skillFortitudeSurvival" name_key="Healthy Heart" desc_key="Increase Max Health by 20 per level" icon="ui_game_symbol_healing_factor">
       <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
       <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
       <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
@@ -14,7 +36,7 @@
       <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
       <effect_group>
        	<passive_effect name="HealthMax" operation="base_add" level="1,5" value="20,100"/>
-        <passive_effect name="attFortitude" operation="base_add" level="1,5" value="1,5"/>
+        <!-- <passive_effect name="attFortitude" operation="base_add" level="1,5" value="1,5"/> -->
       	<effect_description desc_base="Heart" level="1" long_desc_key="Increase max health by 20"/>
       	<effect_description desc_base="Pump" level="2" long_desc_key="Increase max health by 40"/>
       	<effect_description desc_base="It" level="3" long_desc_key="Increase max health by 60"/>
@@ -24,7 +46,7 @@
     </perk>
   </append>
 
- <remove xpath="/progression/perks/perk[@name='perkBrawler']"/>
+
 
 
 </configs>

@@ -2,56 +2,20 @@
 
 <!--====================================== Agility ===================================-->
 
-<!-- add flurry of blows, huntsman, lockpicking -->
+<!-- huntsman, lockpicking -->
 
-<!-- readd flurry of blows -->
-  <append xpath="/progression/perks">
-    <perk name="perkFlurryOfBlows" max_level="3" parent="skillAgilityAthletics" name_key="perkFlurryOfBlowsName" desc_key="perkFlurryOfBlowsDesc" icon="ui_game_symbol_knunchuck"> -->
-      <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
-      <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="reqAgilityLevel04"/></level_requirements>
-      <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
-
-      <effect_group>
-          <passive_effect name="AttacksPerMinute" operation="perc_add" level="1,2,3" value=".1,.17,.25" tags="perkFlurryOfBlows"/>
-      </effect_group>
-
-      <effect_group>
-        <requirement name="HoldingItemHasTags" tags="perkFlurryOfBlows"/>
-        <requirement name="ProgressionLevel" progression_name="perkFlurryOfBlows" operation="Equals" value="3"/>
-          <triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Stamina" operation="add" value="30" delay="1.0"/>
-
-        <effect_description level="1" desc_key="perkFlurryOfBlowsRank1Desc" long_desc_key="perkFlurryOfBlowsRank1LongDesc"/>
-        <effect_description level="2" desc_key="perkFlurryOfBlowsRank2Desc" long_desc_key="perkFlurryOfBlowsRank2LongDesc"/>
-        <effect_description level="3" desc_key="perkFlurryOfBlowsRank3Desc" long_desc_key="perkFlurryOfBlowsRank3LongDesc"/>
-      </effect_group>
-    </perk>
-  </append>
-  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkFlurryOfAgility')]/@value" op="add">perkFlurryOfBlows</csv>
-  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkFlurryOfPerception')]/@value" op="add">perkFlurryOfBlows</csv>
-  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkFlurryOfStrength')]/@value" op="add">perkFlurryOfBlows</csv>
-  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkFlurryOfFortitude')]/@value" op="add">perkFlurryOfBlows</csv>
-  <csv xpath="/items/item/property[@name='Tags' and contains(@value, 'perkFlurryOfIntellect')]/@value" op="add">perkFlurryOfBlows</csv>
-  <remove xpath="/perks/perk[@name='perkFlurryOfAgility']"/>
-  <remove xpath="/perks/perk[@name='perkFlurryOfPerception']"/>
-  <remove xpath="/perks/perk[@name='perkFlurryOfStrength']"/>
-  <remove xpath="/perks/perk[@name='perkFlurryOfFortitude']"/>
-  <remove xpath="/perks/perk[@name='perkFlurryOfIntellect']"/>
 
 <!-- Move Lock-picking to Agility -->
   <set xpath="/progression/perks/perk[@name='perkLockPicking']/@parent">skillAgilityStealth</set>
   <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel01</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel03</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel05</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel07</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel10</set>
+  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel04</set>
+  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel07</set>
   <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='1']/requirement/@progression_name">attAgility</set>
   <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='2']/requirement/@progression_name">attAgility</set>
   <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='3']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='4']/requirement/@progression_name">attAgility</set>
-  <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='5']/requirement/@progression_name">attAgility</set>
 
   <!-- Move Huntsman to Agility -->
-  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/@parent">skillStealth</set>
+  <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/@parent">skillAgilityStealth</set>
   <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel01</set>
   <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel03</set>
   <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel05</set>
@@ -64,12 +28,12 @@
   <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='5']/requirement/@progression_name">attAgility</set>
 
 <!-- merge Parkour and Run and Gun -->
- <set xpath="/progression/perks/perk[@name='perkParkour']@desc_key">Increase athletic ability to move faster while reloading, jump higher, and be more accurate when shooting from the hip</set>
+  <set xpath="/progression/perks/perk[@name='perkParkour']/@desc_key">Increase athletic ability to move faster while reloading, jump higher, and be more accurate when shooting from the hip</set>
   <append xpath="/progression/perks/perk[@name='perkParkour']">
     <effect_group>
       <requirement name="ItemHasTags" tags="ranged"/>
       <requirement name="!ItemHasTags" tags="shotgun"/>
-      <passive_effect name="SpreadMultiplierHip" operation="perc_add" level="0,5" value="0,-.25"/>
+      <passive_effect name="SpreadMultiplierHip" operation="perc_add" level="0,4" value="0,-.25"/>
     </effect_group>
   </append>
 
