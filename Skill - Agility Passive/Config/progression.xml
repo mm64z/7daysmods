@@ -10,7 +10,7 @@
   <append xpath="/progression/attributes/attribute[@name='attAgility']">
 
       <effect_group>
-          <passive_effect name="AttacksPerMinute" operation="perc_add" level="2,10" value=".1,.25" tags="melee"/>
+          <passive_effect name="AttacksPerMinute" operation="perc_add" level="2,10" value=".05,.3" tags="melee"/>
       </effect_group>
 
       <effect_group>
@@ -20,8 +20,6 @@
       </effect_group>
   </append>
   
-  <set xpath="/progression/attributes/attribute[@name='attAgility']/@desc_key">Agility is the measure of your physical dexerity. Increasing Agility raises the headshot bonus and dismemberment chance with agility-based weapons. Also attack faster with melee weapons.</set>
-
   <remove xpath="/progression/perks/perk[@name='perkFlurryOfAgility']"/>
   <remove xpath="/progression/perks/perk[@name='perkFlurryOfPerception']"/>
   <remove xpath="/progression/perks/perk[@name='perkFlurryOfStrength']"/>

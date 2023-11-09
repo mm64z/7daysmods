@@ -1,0 +1,36 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+attstrength,progression,Attribute,,,Strength
+attStrengthDesc,progression,Attribute,,,"Strength is the measure of your muscular might. Increasing Strength raises the headshot bonus and dismemberment chance with strength-based weapons."
+attStrengthName,progression,Attribute,,,Attribute: Strength
+
+attStrengthRank01Desc,progression,Attribute,,,Weakling
+attStrengthRank01LongDesc,progression,Attribute,,,"Everyone wants to be a bodybuilder but nobody wants to lift those heavy ass weights. Deal 200% head shot damage and have a 5% greater chance to dismember with strength-based weapons and tools."
+
+attStrengthRank02Desc,progression,Attribute,,,Scrawny
+attStrengthRank02LongDesc,progression,Attribute,,,"You might be scrawny but you have a fire inside to get big and strong. Deal 210% head shot damage and have a 10% chance to dismember with strength-based weapons and tools. Carry two more items without being encumbered."
+
+attStrengthRank03Desc,progression,Attribute,,,Milk Drinker
+attStrengthRank03LongDesc,progression,Attribute,,,"What is a milk drinker like you doing in the zombie apocalypse? Deal 220% head shot damage and have a 15% greater chance to dismember with strength-based weapons and tools. Carry four more items without being encumbered."
+
+attStrengthRank04Desc,progression,Attribute,,,Softie
+attStrengthRank04LongDesc,progression,Attribute,,,"Your spare tire might keep you from starving but isn't helping you swing a sledgehammer. Deal 230% head shot damage and have a 20% greater chance to dismember with strength-based weapons and tools. Carry six more items without being encumbered."
+
+attStrengthRank05Desc,progression,Attribute,,,Fit
+attStrengthRank05LongDesc,progression,Attribute,,,"You are fit and able to deal 240% head shot damage and have a 25% greater chance to dismember with strength-based weapons and tools. Carry eight more items without being encumbered."
+
+attStrengthRank06Desc,progression,Attribute,,,Strong
+attStrengthRank06LongDesc,progression,Attribute,,,"You are very strong and all the normies at the gym are envious. Deal 250% head shot damage and have a 30% greater chance to dismember with strength-based weapons and tools. Carry ten more items without being encumbered."
+
+attStrengthRank07Desc,progression,Attribute,,,Body Builder
+attStrengthRank07LongDesc,progression,Attribute,,,"Pumping clubs and sledgehammers has gave you some gains bro. Deal 260% head shot damage and have a 35% greater chance to dismember with strength-based weapons and tools. Carry twelve more items without being encumbered."
+
+attStrengthRank08Desc,progression,Attribute,,,Power Lifter
+attStrengthRank08LongDesc,progression,Attribute,,,"Your massive strength is legendary. Deal 270% head shot damage and have a 40% greater chance to dismember with strength-based weapons and tools. Carry fourteen more items without being encumbered."
+
+attStrengthRank09Desc,progression,Attribute,,,Beast Mode
+attStrengthRank09LongDesc,progression,Attribute,,,"Size, strength and power are all champion level now. Deal 285% head shot damage and have a 45% greater chance to dismember with strength-based weapons and tools. Carry sixteen more items without being encumbered."
+
+attStrengthRank10Desc,progression,Attribute,,,Olympic Champion
+attStrengthRank10LongDesc,progression,Attribute,,,"You could be an Olympic champion if the apocalypse hadn't crushed that dream. Now you can just crush zombies. Deal 300% head shot damage and have a 50% greater chance to dismember with strength-based weapons and tools. Carry eighteen more items without being encumbered."
+

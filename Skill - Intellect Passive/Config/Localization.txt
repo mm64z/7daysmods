@@ -1,0 +1,37 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+attintellect,progression,Attribute,,,Intellect,,Intelligenz,Intelecto,Intelligence,Intelletto,知能,지능,Intelekt,Intelecto,Интеллект,Zekâ,智慧,智力
+attIntellectDesc,progression,Attribute,,,"Intellect is the measure of your mental ability. Increasing Intellect improves head shot damage with intellect governed weapons such as Robotic turrets and stun batons.",,,,,,,,,,,,
+attIntellectName,progression,Attribute,,,Attribute: Intellect,,Attribut: Intelligenz,Atributo: Intelecto,Attribut : Intelligence,Attributo: Intelletto,特性:知能,속성: 지능,Atrybut: Intelekt,Atributo: Intelecto,Атрибут: Интеллект,Nitelik: Zekâ,属性：智慧,屬性：智力
+
+attIntellectRank1Desc,progression,Attribute,,,Blockhead,,Einfaltspinsel,Cabeza de bloque,Crétin,Testa di rapa,まぬけ,돌머리,Pustak,Cabeça oca,Чурбан,Mankafa,木头脑袋,傻瓜
+attIntellectRank1LongDesc,progression,Attribute,,,"You are as dumb as box of rocks but you still do 200% head shot damage and have a 5% chance to dismember with stun batons and Robotic turrets.",,,,,,,,,,,,
+
+attIntellectRank2Desc,progression,Attribute,,,Dullard,,Dummerchen,Zoquete,Esprit lent,Idiota,とんま,멍청이,Zapóźniony umysł,Tonto,Тупица,Ahmak,大笨蛋,愚人
+attIntellectRank2LongDesc,progression,Attribute,,,"You aren't the brightest color in the box, but you occasionally hit the nail on the head. Deal 210% head shot damage and have a 10% chance to dismember with stun batons and Robotic turrets. Salvage tools deal 10% more damage, harvest 20% faster, and gain up to 20% more resources with a wrench, ratchet or impact driver. Stamina costs are reduced by 8% and 15% for power attacks. Find more salvage tools and parts in loot.",,,,,,,,,,,,
+
+attIntellectRank3Desc,progression,Attribute,,,Dimwit,,Dumpfbacke,Idiota,Imbécile,Imbecille,おバカさん,얼간이,Poniżej średniej,Idiota,Придурок,Budala,傻瓜,不聰明
+attIntellectRank3LongDesc,progression,Attribute,,,"Even dimwits have a bright idea once in a while. Deal 220% head shot damage and have a 15% chance to dismember with stun batons and Robotic turrets. Salvage tools deal 15% more damage, harvest 30% faster, and gain up to 30% more resources with a wrench, ratchet or impact driver. Stamina costs are reduced by 10% and 20% for power attacks. Find more salvage tools and parts in loot.",,,,,,,,,,,,
+
+attIntellectRank4Desc,progression,Attribute,,,Thick Headed,,Depp,Cabezón,Borné,Testa dura,頭でっかち,우둔한,Oporny uczeń,Cabeça dura,Тупоголовый,Kalın Kafalı,顽钝,見識短淺
+attIntellectRank4LongDesc,progression,Attribute,,,"You don't like to learn new stuff but you will if you have to. Deal 230% head shot damage and have a 20% chance to dismember with stun batons and Robotic turrets. Salvage tools deal 20% more damage, harvest 40% faster, and gain up to 40% more resources with a wrench, ratchet or impact driver. Stamina costs are reduced by 12% and 24% for power attacks. Find more salvage tools and parts in loot.",,,,,,,,,,,,
+
+attIntellectRank5Desc,progression,Attribute,,,Average,,Durchschnitt,Promedio,Dans la moyenne,Nella media,平凡,평균,Średnie IQ,Na média,Посредственность,Ortalama,平庸,普通
+attIntellectRank5LongDesc,progression,Attribute,,,"Being average is better than being below average. Deal 240% head shot damage and have a 25% chance to dismember with stun batons and Robotic turrets. Salvage tools deal 25% more damage, harvest 50% faster, and gain up to 50% more resources with a wrench, ratchet or impact driver. Stamina costs are reduced by 14% and 28% for power attacks. Find more salvage tools and parts in loot.",,,,,,,,,,,,
+
+attIntellectRank6Desc,progression,Attribute,,,Smart,,Klug,Inteligente,Intelligent,Intelligente,スマート,똑똑한,Klarowne myśli,Esperto,Умница,Akıllı,聪明,聰明
+attIntellectRank6LongDesc,progression,Attribute,,,"You are now getting pretty smart. Deal 250% head shot damage and have a 30% chance to dismember with stun batons and Robotic turrets. Salvage tools deal 30% more damage, harvest 60% faster, and gain up to 60% more resources with a wrench, ratchet or impact driver. Stamina costs are reduced by 17% and 34% for power attacks. Find more salvage tools and parts in loot.",,,,,,,,,,,,
+
+attIntellectRank7Desc,progression,Attribute,,,Brilliant,,Geistreich,Brillante,Brillant,Brillante,聡明,우수한,Błyskotliwe myśli,Brilhante,Блестящий ум,Kafası Çalışan,聪颖,傑出
+attIntellectRank7LongDesc,progression,Attribute,,,"Your peers consider you brilliant. Deal 260% head shot damage and have a 35% chance to dismember with stun batons and Robotic turrets. Salvage tools deal 35% more damage, harvest 70% faster, and gain up to 70% more resources with a wrench, ratchet or impact driver. Stamina costs are reduced by 19% and 38% for power attacks. Find more salvage tools and parts in loot.",,,,,,,,,,,,
+
+attIntellectRank8Desc,progression,Attribute,,,Intellectual,,Intellektuell,Intelectual,Intellectuel,Intellettuale,知的,지적인,Piękny umysł,Intelectual,Интеллектуал,Entelektüel,英才,智者
+attIntellectRank8LongDesc,progression,Attribute,,,"Your intellect is quite impressive. Deal 270% head shot damage and have a 40% chance to dismember with stun batons and Robotic turrets. Salvage tools deal 40% more damage, harvest 80% faster, and gain up to 80% more resources with a wrench, ratchet or impact driver. Stamina costs are reduced by 21% and 42% for power attacks. Find more salvage tools and parts in loot.",,,,,,,,,,,,
+
+attIntellectRank9Desc,progression,Attribute,,,Genius,,Genie,Genio,Génie,Genio,天才,천재적인,Geniusz,Gênio,Гений,Dâhi,天才,天才
+attIntellectRank9LongDesc,progression,Attribute,,,"You are now a true genius. Deal 285% head shot damage and have a 45% chance to dismember with stun batons and Robotic turrets. Salvage tools deal 45% more damage, harvest 90% faster, and gain up to 90% more resources with a wrench, ratchet or impact driver. Stamina costs are reduced by 23% and 46% for power attacks. Find more salvage tools and parts in loot.",,,,,,,,,,,,
+
+attIntellectRank10Desc,progression,Attribute,,,Mastermind,,Superhirn,Mente maestra,Tête pensante,Mente superiore,マスターマインド,뛰어난 두뇌의 지휘자,Tytan intelektu,Mente Brilhante,Гигант мысли,Üst Akıl,天才大脑,智者
+attIntellectRank10LongDesc,progression,Attribute,,,"You are a mastermind of intellect. Deal 300% head shot damage and have a 50% chance to dismember with stun batons and Robotic turrets. Salvage tools deal 50% more damage, harvest 100% faster, and gain up to 100% more resources with a wrench, ratchet or impact driver. Stamina costs are reduced by 25% and 50% for power attacks. Find more salvage tools and parts in loot.",,,,,,,,,,,,
+
+

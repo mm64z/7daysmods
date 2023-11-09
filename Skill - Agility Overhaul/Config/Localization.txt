@@ -1,0 +1,13 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+perkParkourDesc,progression,perk Agi,,,"Specialize in dexterous limbs - acrobatically getting anywhere you want to go, reloading on the move, falling safely, or firing from the hip.",,,,,,,,,,,,
+perkParkourName,progression,perk Agi,,,Parkour and Gun,,,,,,,,,,,,
+perkParkourRank1Desc,progression,perk Agi,,,Tumbler,,,,,,,,,,,,
+perkParkourRank1LongDesc,progression,perk Agi,,,"Increase safe fall distance by one meter and reduce stamina cost of jumping by 10%. Hip fire accuracy is improved by 10% and movement penalty when reloading is reduced 30%.",,,,,,,,,,,,
+perkParkourRank2Desc,progression,perk Agi,,,Stuntman,,,,,,,,,,,,
+perkParkourRank2LongDesc,progression,perk Agi,,,"Reduce stamina cost of jumping by 20%. Increase safe fall distance by 2 meters and jump 1 meter higher. Hip fire accuracy is improved by 17% and movement penalty when reloading is reduced 60%.",,,,,,,,,,,,
+perkParkourRank3Desc,progression,perk Agi,,,Adrenaline Junkie,,,,,,,,,,,,
+perkParkourRank3LongDesc,progression,perk Agi,,,"Reduce stamina cost of jumping by 30%. Increase safe fall distance by 4 meters and never get a broken leg when falling. Hip fire accuracy is improved by 25% and have no movement penalty when reloading.",,,,,,,,,,,,
+perkParkourRank4Desc,progression,perk Agi,,,Parkour Master,,,,,,,,,,,,
+perkParkourRank4LongDesc,progression,perk Agi,,,"Reduce stamina cost of jumping by 40%. Increase safe fall distance by 5 meters, can jump 2 meters higher, and never get a sprained or broken leg when falling. Hip fire accuracy is improved by 32% and have no movement penalty when reloading.",,,,,,,,,,,,
+

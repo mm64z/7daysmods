@@ -7,7 +7,6 @@
   <!-- move spear master, machine gunner to strength -->
 
  <!-- merge pummel pete, brawler, skull crusher -->
- <set xpath="/progression/perks/perk[@name='perkPummelPete']/@desc_key">Specialize in destroying enemies with clubs, sledgehammers, and knuckles</set>
   <append xpath="/progression/perks/perk[@name='perkPummelPete']">
     <!-- Skull Crusher -->
     <effect_group>
@@ -28,8 +27,8 @@
 			</passive_effect>
 		</effect_group>
 
-		<!-- SKULL_CRUSHER:SEXREX_REPLACEMENT -->
 		<effect_group>
+		<!-- SKULL_CRUSHER:SEXREX_REPLACEMENT -->
 			<requirement name="ItemHasTags" tags="perkSkullCrusher"/>
 			<passive_effect name="StaminaLoss" operation="perc_add" level="1,2,3,4,5" value="-.08,-.15,-.2,-.25,-.25"/>
 			<passive_effect name="StaminaLoss" operation="perc_add" level="1,2,3,4,5" value="-.07,-.15,-.2,-.25,-.25" tags="secondary"/>

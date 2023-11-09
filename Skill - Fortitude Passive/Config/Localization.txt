@@ -1,0 +1,35 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+attFortitude,progression,Attribute,,,Fortitude,,,,,,,,,,,,
+attFortitudeDesc,progression,Attribute,,,"Fortitude is the measure of your physical resilience. Increasing Fortitude raises the headshot bonus and dismemberment chance with Fortitude-based weapons. Increase resistance to debuffs (burning, bleeding, infection, shocked).",,,,,,,,,,,,
+attFortitudeName,progression,Attribute,,,Attribute: Fortitude,,,,,,,,,,,,
+attFortitudeRank01Desc,progression,Attribute,,,Fragile Health,,Gebrechlich,Salud frágil,Santé fragile,Salute fragile,脆弱な体,연약한 체력,Cherlawe ciało,Saúde frágil,Слабое здоровье,Kırılgan Sağlık,瘦骨穷骸,脆弱生命值
+attFortitudeRank01LongDesc,progression,Attribute,,,"You aren't very durable or healthy but at least you are alive. Deal 200% head shot damage and have a 5% chance to dismember with fortitude-based weapons.",,,,,,,,,,,,
+
+attFortitudeRank02Desc,progression,Attribute,,,Sickly,,Kränklich,Enfermito,Chétif,Cagionevole,病弱,병약한,Mizera,Doentinho,Хилый,Solgun,病弱常伴,體弱
+attFortitudeRank02LongDesc,progression,Attribute,,,"You feel a little better than you used to. Deal 210% head shot damage and have a 10% chance to dismember with fortitude-based weapons. Resist burning, bleeding, infection, shocked 10% of the time.",,,,,,,,,,,,
+
+attFortitudeRank03Desc,progression,Attribute,,,Unhealthy,,Ungesund,Insalubre,Maladif,Non in salute,不健康,건강하지 않은,Wątłe zdrowie,Adoentado,Нездоровый,Sağlıksız,弱不禁风,不健康
+attFortitudeRank03LongDesc,progression,Attribute,,,"You continue to defy gravity and keep standing. Deal 220% head shot damage and have a 15% chance to dismember with fortitude-based weapons. Resist burning, bleeding, infection, shocked 15% of the time.",,,,,,,,,,,,
+
+attFortitudeRank04Desc,progression,Attribute,,,Weakened,,Geschwächt,Debilitado,Affaibli,Debole,衰弱,약한,Osłabienie,Enfraquecido,Ослабленный,Zayıf,身体瘦弱,虛弱
+attFortitudeRank04LongDesc,progression,Attribute,,,"You are starting to feel like normal people. Deal 230% head shot damage and have a 20% chance to dismember with fortitude-based weapons. Resist burning, bleeding, infection, shocked 20% of the time.",,,,,,,,,,,,
+
+attFortitudeRank05Desc,progression,Attribute,,,Hardy,,Unempfindlich,Robusto,Bonne santé,Resistente,丈夫,강건한,Twardość,Resistente,Выносливый,Kuvvetli,身体健壮,強健
+attFortitudeRank05LongDesc,progression,Attribute,,,"You are in good health. Deal 240% head shot damage and have a 25% chance to dismember with fortitude-based weapons. Resist burning, bleeding, infection, shocked 25% of the time.",,,,,,,,,,,,
+
+attFortitudeRank06Desc,progression,Attribute,,,Very Healthy,,Sehr gesund,Muy saludable,Santé de fer,Ottima salute,超ヘルシー,아주 건강한,Dobre zdrowie,Super saudável,Очень здоровый,Çok Sağlıklı,非常健康,非常健康
+attFortitudeRank06LongDesc,progression,Attribute,,,"You are very healthy. Deal 250% head shot damage and have a 30% chance to dismember with fortitude-based weapons. Resist burning, bleeding, infection, shocked 30% of the time.",,,,,,,,,,,,
+
+attFortitudeRank07Desc,progression,Attribute,,,Vigorous Health,,Höchst gesund,Salud vigorosa,Santé vigoureuse,Salute vigorosa,すさまじい健康,혈기왕성한 체력,Okaz zdrowia,Saúde vigorosa,Крепкое здоровье,Turp Gibi,超级健康,健康而有活力
+attFortitudeRank07LongDesc,progression,Attribute,,,"You have vigorous health. Deal 260% head shot damage and have a 35% chance to dismember with fortitude-based weapons. Resist burning, bleeding, infection, shocked 35% of the time.",,,,,,,,,,,,
+
+attFortitudeRank08Desc,progression,Attribute,,,Resilient,,Abgehärtet,Resistente,Résistant,Resiliente,元気ハツラツ,회복력 있는,Niesamowita odporność,Resiliente,Живучий,Dirençli,体魄强健,恢復力
+attFortitudeRank08LongDesc,progression,Attribute,,,"You are as resilient as they come. Deal 270% head shot damage and have a 40% chance to dismember with fortitude-based weapons. Resist burning, bleeding, infection, shocked 40% of the time.",,,,,,,,,,,,
+
+attFortitudeRank09Desc,progression,Attribute,,,Amazing Constitution,,Beeindruckende Verfassung,Asombrosa constitución,Excellente constitution,Perfetta costituzione,素晴らしい体格,놀라운 체질,Grecka rzeźba,Constituição impressionante,Потрясающее телосложение,Muhteşem Bünye,惊人体质,驚人體質
+attFortitudeRank09LongDesc,progression,Attribute,,,"You have an amazing constitution. Deal 285% head shot damage and have a 45% chance to dismember with fortitude-based weapons. Resist burning, bleeding, infection, shocked 45% of the time.",,,,,,,,,,,,
+
+attFortitudeRank10Desc,progression,Attribute,,,Exuberant Fortitude,,Nicht zu bändigende Standhaftigkeit,Fortaleza exuberante,Débordant de courage,Resilienza esuberante,すさまじき忍耐力,넘쳐흐르는 불굴의 정신,Legendarna witalność,Robustez exuberante,Невероятная стойкость,Dayanma Gücü,超人体魄,旺盛的堅韌力
+attFortitudeRank10LongDesc,progression,Attribute,,,"Your have exuberant fortitude and can put a beat down on a tornado. Deal 300% head shot damage and have a 50% chance to dismember with fortitude-based weapons. Resist burning, bleeding, infection, shocked 50% of the time.",,,,,,,,,,,,
+

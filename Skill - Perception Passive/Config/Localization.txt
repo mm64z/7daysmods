@@ -1,0 +1,36 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+attperception,progression,Attribute,,,Perception
+attPerceptionDesc,progression,Attribute,,,"Perception is the measure of your sensory awareness. Increasing Perception raises the headshot bonus and dismemberment chance with perception-based weapons. Also find better loot, decrease looting time, and find buried treasure more easily."
+attPerceptionName,progression,Attribute,,,Attribute: Perception
+
+attPerceptionRank01Desc,progression,Attribute,,,Oblivious
+attPerceptionRank01LongDesc,progression,Attribute,,,"You are pretty oblivious in the perception department. Deal 200% head shot damage and have a 5% chance to dismember with perception-based weapons."
+
+attPerceptionRank02Desc,progression,Attribute,,,Unaware
+attPerceptionRank02LongDesc,progression,Attribute,,,"You are still unaware to most things around you. Deal 210% head shot damage and have a 10% chance to dismember with perception-based weapons. Adds 5% to loot bonus. Looting is 10% faster. For every 10 blocks dug up the treasure search radius is reduced by 1m.\nFind 10% more items in buried treasure. Increased chance to find Lucky Looter books."
+
+attPerceptionRank03Desc,progression,Attribute,,,Unobservant
+attPerceptionRank03LongDesc,progression,Attribute,,,"You are sometimes unobservant but getting better. Deal 220% head shot damage and have a 15% chance to dismember with perception-based weapons. Adds 8% to loot bonus. Looting is 19% faster. For every 9 blocks dug up the treasure search radius is reduced by 1m.\nFind 15% more items in buried treasure. Increased chance to find Lucky Looter books."
+
+attPerceptionRank04Desc,progression,Attribute,,,Incognizant
+attPerceptionRank04LongDesc,progression,Attribute,,,"Your incognizant perception is usually just a small setback. Deal 230% head shot damage and have a 20% chance to dismember with perception-based weapons. Adds 10% to loot bonus. Looting is 28% faster. For every 8 blocks dug up the treasure search radius is reduced by 1m.\nFind 20% more items in buried treasure. Increased chance to find Lucky Looter books."
+
+attPerceptionRank05Desc,progression,Attribute,,,Observant
+attPerceptionRank05LongDesc,progression,Attribute,,,"You are observant and notice just enough to make a big difference. Deal 240% head shot damage and have a 25% chance to dismember with perception-based weapons. Adds 13% to loot bonus. Looting is 36% faster. For every 7 blocks dug up the treasure search radius is reduced by 1m.\nFind 25% more items in buried treasure. Increased chance to find Lucky Looter books."
+
+attPerceptionRank06Desc,progression,Attribute,,,Attentive
+attPerceptionRank06LongDesc,progression,Attribute,,,"Your attention to detail is clearly aiding you in combat. Deal 250% head shot damage and have a 30% chance to dismember with perception-based weapons. Adds 15% to loot bonus. Looting is 45% faster. For every 6 blocks dug up the treasure search radius is reduced by 1m.\nFind 30% more items in buried treasure. Increased chance to find Lucky Looter books."
+
+attPerceptionRank07Desc,progression,Attribute,,,Discerning
+attPerceptionRank07LongDesc,progression,Attribute,,,"You can discern weak points in enemies with ease now. Deal 260% head shot damage and have a 35% chance to dismember with perception-based weapons. Adds 18% to loot bonus. Looting is 54% faster. For every 5 blocks dug up the treasure search radius is reduced by 1m.\nFind 35% more items in buried treasure. Increased chance to find Lucky Looter books."
+
+attPerceptionRank08Desc,progression,Attribute,,,Perceptive
+attPerceptionRank08LongDesc,progression,Attribute,,,"Your perception is astounding. Deal 270% head shot damage and have a 40% chance to dismember with perception-based weapons. Adds 20% to loot bonus. Looting is 63% faster. For every 4 blocks dug up the treasure search radius is reduced by 1m.\nFind 40% more items in buried treasure. Increased chance to find Lucky Looter books."
+
+attPerceptionRank09Desc,progression,Attribute,,,Astute Awareness
+attPerceptionRank09LongDesc,progression,Attribute,,,"Your awareness is astute. Deal 285% head shot damage and have a 45% chance to dismember with perception-based weapons. Adds 23% to loot bonus. Looting is 71% faster. For every 3 blocks dug up the treasure search radius is reduced by 1m.\nFind 45% more items in buried treasure. Increased chance to find Lucky Looter books."
+
+attPerceptionRank10Desc,progression,Attribute,,,Boom Headshot
+attPerceptionRank10LongDesc,progression,Attribute,,,"You are unrivaled at making heads go boom.  Deal 300% head shot damage and have a 50% chance to dismember with perception-based weapons. Adds 25% to loot bonus. Looting is 80% faster. For every 2 blocks dug up the treasure search radius is reduced by 1m.\nFind 50% more items in buried treasure. Increased chance to find Lucky Looter books."
+

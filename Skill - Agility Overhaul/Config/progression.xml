@@ -3,8 +3,6 @@
 <!--====================================== Agility ===================================-->
 
 <!-- huntsman, lockpicking -->
-
-
 <!-- Move Lock-picking to Agility -->
   <set xpath="/progression/perks/perk[@name='perkLockPicking']/@parent">skillAgilityStealth</set>
   <set xpath="/progression/perks/perk[@name='perkLockPicking']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel01</set>
@@ -27,13 +25,12 @@
   <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='4']/requirement/@progression_name">attAgility</set>
   <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='5']/requirement/@progression_name">attAgility</set>
 
-<!-- merge Parkour and Run and Gun -->
-  <set xpath="/progression/perks/perk[@name='perkParkour']/@desc_key">Increase athletic ability to move faster while reloading, jump higher, and be more accurate when shooting from the hip</set>
+  <!-- merge Parkour and Run and Gun -->
   <append xpath="/progression/perks/perk[@name='perkParkour']">
     <effect_group>
       <requirement name="ItemHasTags" tags="ranged"/>
       <requirement name="!ItemHasTags" tags="shotgun"/>
-      <passive_effect name="SpreadMultiplierHip" operation="perc_add" level="0,4" value="0,-.25"/>
+      <passive_effect name="SpreadMultiplierHip" operation="perc_add" level="0,4" value="0,-.32"/>
     </effect_group>
   </append>
 
