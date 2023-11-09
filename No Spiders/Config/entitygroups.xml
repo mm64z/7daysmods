@@ -1,5 +1,6 @@
 <configs>
-	
-	<!-- <set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'zombieSpiderFeral')]/@name">zombiePartyGirlFeral</set> -->
-	<!-- <set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'zombieSpider')]/@name">zombiePartyGirl</set> -->
+	<!-- <csv xpath="/entitygroups/entitygroup[contains(text(), 'zombieSpiderFeral')]/text()" delim="\n" op="add" >zombiePartyGirlFeral</csv> -->
+	<!-- <csv xpath="/entitygroups/entitygroup[contains(text(), 'zombieSpiderRadiated')]/text()" delim="\n" op="add" >zombiePartyGirlRadiated</csv> -->
+	<csv xpath="/entitygroups/entitygroup[contains(text(), 'zombieSpider')]/text()" delim="\n" op="add" >animalChicken</csv>
+	<csv xpath="/entitygroups/entitygroup/text()" delim="\n" op="remove" >zombieSpider*</csv>
 </configs>

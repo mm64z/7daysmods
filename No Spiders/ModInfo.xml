@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="No Spider Zombies" />
-		<Description value="Replace spider zombies with another type" />
-		<Author value="Michael and Lilac" />
-		<Version value="1.0" />
-		<Website value="" />
-	</ModInfo>
+  <Name value="ML_NoSpiderZombies"/>
+  <DisplayName value="No Spider Zombies" />
+  <Description value="Replace spider zombies with another type" />
+  <Author value="Michael and Lilac" />
+  <Version value="1.1" />
+  <Website value="" />
 </xml>
