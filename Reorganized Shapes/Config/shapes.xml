@@ -1,412 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <configs>
-    <!-- Replace existing categories -->
-    <configs>
-        <set xpath="/shapes/categories/category[@name='Basic']/@name">All</set>
-        <set xpath="/shapes/categories/category[@name='Wedge']/@name">Roofing</set>
-        <category name="Cubes with Cutouts" icon="ui_game_symbol_shape_text" order="14" />
-        <category name="L-Shapes" icon="ui_game_symbol_shape_text" order="14" />
-        <category name="Beveled" icon="ui_game_symbol_shape_text" order="14" />
-        <category name="Multi-Paint" icon="ui_game_symbol_shape_text" order="14" />
-        <category name="Arches" icon="ui_game_symbol_shape_text" order="15" />
-        <category name="Broken" icon="ui_game_symbol_shape_text" order="15" />
-    </configs>
+    <!-- Add new categories -->
+    <append xpath="/shapes/categories">
+        <category name="All" icon="ui_game_symbol_all_blocks" order="1" />
+        <category name="Roofing" icon="ui_game_symbol_shape_wedge" order="4" />
+        <category name="Cubes with Cutouts" name_key="shapeCategoryCubeswithCutouts" icon="ui_game_symbol_shape_text" order="15" />
+        <category name="L-Shapes" name_key="shapeCategoryLShapes" icon="ui_game_symbol_muscle" order="16" />
+        <category name="Beveled" icon="ui_game_symbol_shape_text" order="17" />
+        <category name="Multi-Paint" name_key="shapeCategoryMultiPaint" icon="ui_game_symbol_thirst" order="18" />
+        <category name="Arches" icon="ui_game_symbol_lock" order="19" />
+    </append>
 
     <!-- Assign shapes to categories -->
     <!-- Use icon tints to visually group full, half, and quarter blocks -->
     <!-- The grey icons are hard to visualize against a grey background, so use a tint for all three types.-->
     <!-- Full: #551b14 (dark red), 3/4:#23395B (mid blue)  1/2: #77966D (mid-light green) 1/4: #EDB458 (pale orange/yellow) -->
+    <csv xpath="/shapes/shape/property[@name='ShapeCategories']/@value" op="add">All</csv>
+    <!-- Replace existing categories -->
+    <csv xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'Wedge')]/@value" op="add">Roofing</csv>
+    <csv xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'Basic')]/@value" op="remove">Basic</csv>
+    <csv xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'Wedge')]/@value" op="remove">Wedge</csv>
+    <remove xpath="/shapes/categories/category[@name='Basic']"/>
+    <remove xpath="/shapes/categories/category[@name='Wedge']"/>
+    <csv xpath="/shapes/shape[contains(@name, 'pole')]/property[@name='ShapeCategories' and contains(@value, 'Square')]/@value" op="remove">Square</csv>
+    <csv xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'halfCorner') or contains(@value, 'HalfCorner')]/@value" op="add">L-Shapes</csv>
 
-    <set xpath="/shapes/shape[@name='cube']/property[@name='ShapeCategories']">All,Square</set>
-    <append xpath="/shapes/shape[@name='cube']">
+    <append xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'Square') or contains(@value, 'Round') or contains(@value, 'Roofing')]">
         <property name="CustomIconTint" value="551B14"/>
     </append>
 
-    <set xpath="/shapes/shape[@name='cubeFrame']/property[@name='ShapeCategories']">All,Square</set>
-    <append xpath="/shapes/shape[@name='cubeFrame']">
-        <property name="CustomIconTint" value="551B14"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalfInsideCorner']/property[@name='ShapeCategories']">All,Square,Cubes With Cutouts</set>
-    <append xpath="/shapes/shape[@name='cubeHalfInsideCorner']">
-        <property name="CustomIconTint" value="551B14"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeThreeQuarter']/property[@name='ShapeCategories']">All,Square</set>
-    <append xpath="/shapes/shape[@name='cubeThreeQuarter']">
+    <append xpath="/shapes/shape[contains(@name, '.75')]">
         <property name="CustomIconTint" value="23395B"/>
     </append>
 
-    <set xpath="/shapes/shape[@name='cube1mHole']/property[@name='ShapeCategories']">All,Square,Cubes With Cutouts</set>
-    <append xpath="/shapes/shape[@name='cube1mHole']">
-        <property name="CustomIconTint" value="551B14"/>
+    <append xpath="/shapes/shape[contains(@name, '3/4')]">
+        <property name="CustomIconTint" value="23395B"/>
     </append>
 
-    <set xpath="/shapes/shape[@name='cube1mHoleFilled']/property[@name='ShapeCategories']">All,Square,Multi-Paint</set>
-    <append xpath="/shapes/shape[@name='cube1mHoleFilled']">
-        <property name="CustomIconTint" value="551B14"/>
+    <append xpath="/shapes/shape[contains(@name, 'ThreeQuarter')]">
+        <property name="CustomIconTint" value="23395B"/>
     </append>
 
-    <set xpath="/shapes/shape[@name='cube1mHoleFilledCentered']/property[@name='ShapeCategories']">All,Square,Cubes With Cutouts</set>
-    <append xpath="/shapes/shape[@name='cube1mHoleFilledCentered']">
-        <property name="CustomIconTint" value="551B14"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalf1mHole']/property[@name='ShapeCategories']">All,Square,Cubes With Cutouts</set>
-    <append xpath="/shapes/shape[@name='cubeHalf1mHole']">
+    <append xpath="/shapes/shape[contains(@name, 'Half')]">
         <property name="CustomIconTint" value="77966D"/>
     </append>
 
-    <!--TODO Is this Multi-Paint?-->
-    <set xpath="/shapes/shape[@name='cubeHalf1mHoleFilled']/property[@name='ShapeCategories']">All,Square,Cubes With Cutouts</set>
-    <append xpath="/shapes/shape[@name='cubeHalf1mHoleFilled']">
+    <append xpath="/shapes/shape[contains(@name, '.5')]">
         <property name="CustomIconTint" value="77966D"/>
     </append>
 
-    <set xpath="/shapes/shape[@name='cubeHalfCorner']/property[@name='ShapeCategories']">All,Cubes With Cutouts,L-Shapes</set>
-    <append xpath="/shapes/shape[@name='cubeHalfCorner']">
+    <append xpath="/shapes/shape[contains(@name, '1/2')]">
         <property name="CustomIconTint" value="77966D"/>
     </append>
 
-    <set xpath="/shapes/shape[@name='cubeHalfCorner2']/property[@name='ShapeCategories']">All,Cubes With Cutouts,L-Shapes</set>
-    <append xpath="/shapes/shape[@name='cubeHalfCorner2']">
-        <property name="CustomIconTint" value="77966D"/>
+    <append xpath="/shapes/shape[contains(@name, 'Quarter')]">
+        <property name="CustomIconTint" value="EDB458"/>
     </append>
 
-    <set xpath="/shapes/shape[@name='cubeHalfCornerInclineFillerLeft']/property[@name='ShapeCategories']">All,Cubes With Cutouts,L-Shapes</set>
-    <append xpath="/shapes/shape[@name='cubeHalfCornerInclineFillerLeft']">
-        <property name="CustomIconTint" value="77966D"/>
+    <append xpath="/shapes/shape[contains(@name, '.25')]">
+        <property name="CustomIconTint" value="EDB458"/>
     </append>
 
-    <set xpath="/shapes/shape[@name='cubeHalfCornerInclineFillerRight']/property[@name='ShapeCategories']">All,Cubes With Cutouts,L-Shapes</set>
-    <append xpath="/shapes/shape[@name='cubeHalfCornerInclineFillerRight']">
-        <property name="CustomIconTint" value="77966D"/>
+    <append xpath="/shapes/shape[contains(@name, '1/4')]">
+        <property name="CustomIconTint" value="EDB458"/>
     </append>
 
-    <set xpath="/shapes/shape[@name='cubeHalfCornerTopPlate01']/property[@name='ShapeCategories']">All,Square,Cubes With Cutouts,L-Shapes</set>
-    <append xpath="/shapes/shape[@name='cubeHalfCornerTopPlate01']">
-        <property name="CustomIconTint" value="77966D"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalfCornerTopPlate02']/property[@name='ShapeCategories']">All,Square,Cubes With Cutouts,L-Shapes</set>
-    <append xpath="/shapes/shape[@name='cubeHalfCornerTopPlate02']">
-        <property name="CustomIconTint" value="77966D"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalf']/property[@name='ShapeCategories']">All,Square</set>
-    <append xpath="/shapes/shape[@name='cubeHalf']">
-        <property name="CustomIconTint" value="77966D"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalfCentered']/property[@name='ShapeCategories']">All,Square</set>
-    <append xpath="/shapes/shape[@name='cubeHalfCentered']">
-        <property name="CustomIconTint" value="77966D"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cube0.25m']/property[@name='ShapeCategories']">All,Square</set>
-    <append xpath="/shapes/shape[@name='cube0.25m']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeCornerBeveled']/property[@name='ShapeCategories']">All,Beveled</set>
-    <append xpath="/shapes/shape[@name='cubeCornerBeveled']">
-        <property name="CustomIconTint" value="fullRed"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeCornerBeveledCorner']/property[@name='ShapeCategories']">All,Roofing,Beveled,Cubes With Cutouts</set>
-    <append xpath="/shapes/shape[@name='cubeCornerBeveledCorner']">
-        <property name="CustomIconTint" value="fullRed"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeBeveledCorner']/property[@name='ShapeCategories']">All,Roofing,Beveled,Cubes With Cutouts</set>
-    <append xpath="/shapes/shape[@name='cubeBeveledCorner']">
-        <property name="CustomIconTint" value="fullRed"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalfSplitBeveledCorner']/property[@name='ShapeCategories']">All,Roofing,Beveled,Cubes With Cutouts</set>
-    <append xpath="/shapes/shape[@name='cubeHalfSplitBeveledCorner']">
-        <property name="CustomIconTint" value="fullRed"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='rampCubeHalfCornerBeveled']/property[@name='ShapeCategories']">All,Roofing,Beveled,Cubes With Cutouts</set>
-    <append xpath="/shapes/shape[@name='rampCubeHalfCornerBeveled']">
-        <property name="CustomIconTint" value="fullRed"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeCornerArch']/property[@name='ShapeCategories']">All,Arches</set>
-    <append xpath="/shapes/shape[@name='cubeCornerArch']">
-        <property name="CustomIconTint" value="fullRed"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalfCornerArch']/property[@name='ShapeCategories']">All,Arches</set>
-    <append xpath="/shapes/shape[@name='cubeHalfCornerArch']">
-        <property name="CustomIconTint" value="greenHalf"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalfCornerBeveled']/property[@name='ShapeCategories']">All,Beveled</set>
-    <append xpath="/shapes/shape[@name='cubeHalfCornerBeveled']">
-        <property name="CustomIconTint" value="greenHalf"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='halfBlockPoleQuarter']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='halfBlockPoleQuarter']">
-        <property name="CustomIconTint" value="greenHalf"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalfPoleQuarterSideCentered']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeHalfPoleQuarterSideCentered']">
-        <property name="CustomIconTint" value="greenHalf"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='halfQuarterPost']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='halfQuarterPost']">
-        <property name="CustomIconTint" value="greenHalf"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='halfQuarterPost2']/property[@name='ShapeCategories']">All,Poles,Multi-Paint</set>
-    <append xpath="/shapes/shape[@name='halfQuarterPost2']">
-        <property name="CustomIconTint" value="greenHalf"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeQuarterPlateCorner']/property[@name='ShapeCategories']">All,Poles,Multi-Paint</set>
-    <append xpath="/shapes/shape[@name='cubeQuarterPlateCorner']">
-        <property name="CustomIconTint" value="fullRed"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeQuarterPlateCorner2']/property[@name='ShapeCategories']">All,Poles,Multi-Paint</set>
-    <append xpath="/shapes/shape[@name='cubeQuarterPlateCorner2']">
-        <property name="CustomIconTint" value="redFull"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeQuarter']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeQuarter']">
-        <property name="CustomIconTint" value="redFull"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeQuarterCenter']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeQuarterCenter']">
-        <property name="CustomIconTint" value="redFull"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='quarterCenteredWall']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='quarterCenteredWall']">
-        <property name="CustomIconTint" value="redFull"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeQuarterRampInclineHalfFillerLeft']/property[@name='ShapeCategories']">All,Roofing,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeQuarterRampInclineHalfFillerLeft']">
-        <property name="CustomIconTint" value="redFull"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeQuarterRampInclineHalfFillerRight']/property[@name='ShapeCategories']">All,Roofing,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeQuarterRampInclineHalfFillerRight']">
-        <property name="CustomIconTint" value="greenHalf"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='quarterInsideCorner']/property[@name='ShapeCategories']">All,Roofing,L-Shaped,Poles</set>
-    <append xpath="/shapes/shape[@name='quarterInsideCorner']">
-        <property name="CustomIconTint" value="greenHalf"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='quarterInsideCorner3way']/property[@name='ShapeCategories']">All,L-Shaped,Poles</set>
-    <append xpath="/shapes/shape[@name='quarterInsideCorner3way']">
-        <property name="CustomIconTint" value="redFull"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeTee']/property[@name='ShapeCategories']">All,Cube With Cutouts</set>
-    <append xpath="/shapes/shape[@name='cubeTee']">
-        <property name="CustomIconTint" value="redFull"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='quarterCenteredTee']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='quarterCenteredTee']">
-        <property name="CustomIconTint" value="redFull"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='quarterTeeCentered']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='quarterTeeCentered']">
-        <property name="CustomIconTint" value="greenHalf"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeQuarter4WayCentered']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeQuarter4WayCentered']">
-        <property name="CustomIconTint" value="greenHalf"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeQuarter4WaySideCentered']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeQuarter4WaySideCentered']">
-        <property name="CustomIconTint" value="fullRed"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeQuarter5WayCentered']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeQuarter5WayCentered']">
-        <property name="CustomIconTint" value="fullRed"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='wedge60TipCornerCubeQuarter']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='wedge60TipCornerCubeQuarter']">
-        <property name="CustomIconTint" value="fullRed"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeEighth']/property[@name='ShapeCategories']">All,Square,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeEighth']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeEighthCentered']/property[@name='ShapeCategories']">All,Square,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeEighthCentered']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalfPoleCorner']/property[@name='ShapeCategories']">All,Square,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeHalfPoleCorner']">
-        <property name="CustomIconTint" value="halfGreen"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalfPoleSideCentered']/property[@name='ShapeCategories']">All,Square,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeHalfPoleSideCentered']">
-        <property name="CustomIconTint" value="halfGreen"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='cubeHalfPoleCentered']/property[@name='ShapeCategories']">All,Square,Poles</set>
-    <append xpath="/shapes/shape[@name='cubeHalfPoleCentered']">
-        <property name="CustomIconTint" value="halfGreen"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='pole']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='pole']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleCentered']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='poleCentered']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSideCentered']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='poleSideCentered']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleHalf']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='poleHalf']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleHalfCentered']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='poleHalfCentered']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleHalfSideCentered']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='poleHalfSideCentered']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleTwoWayCorner']/property[@name='ShapeCategories']">All,Poles,L-Shaped</set>
-    <append xpath="/shapes/shape[@name='poleTwoWayCorner']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleThreeWayCorner']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='poleThreeWayCorner']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareSideCenteredCorner']/property[@name='ShapeCategories']">All,Poles,L-Shaped</set>
-    <append xpath="/shapes/shape[@name='poleSquareSideCenteredCorner']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareCenteredTee']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='poleSquareCenteredTee']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareSideCenteredTee']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='poleSquareSideCenteredTee']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareSideCenteredTeeFourWay']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='poleSquareSideCenteredTeeFourWay']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareCornerBracketLeft']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='poleSquareCornerBracketLeft']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareSideCenteredCornerBracket']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='poleSquareSideCenteredCornerBracket']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareCornerBracketRight']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='poleSquareCornerBracketRight']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareBracketCorner']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='poleSquareBracketCorner']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareBracketCornerPlate']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='poleSquareBracketCornerPlate']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareBracketCornerPlate02']/property[@name='ShapeCategories']">All,Poles,Deco,Multi-Paint</set>
-    <append xpath="/shapes/shape[@name='poleSquareBracketCornerPlate02']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareBracketLeft']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='poleSquareBracketLeft']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareBracketRight']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='poleSquareBracketRight']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareBracketDouble']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='poleSquareBracketDouble']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareCenteredBracketDouble']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='poleSquareCenteredBracketDouble']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareSideCenteredBracketDouble']/property[@name='ShapeCategories']">All,Poles,Deco</set>
-    <append xpath="/shapes/shape[@name='poleSquareSideCenteredBracketDouble']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareDouble']/property[@name='ShapeCategories']">All,Poles</set>
-    <append xpath="/shapes/shape[@name='poleSquareDouble']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareDouble2']/property[@name='ShapeCategories']">All,Poles,Square</set>
-    <append xpath="/shapes/shape[@name='poleSquareDouble2']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
-
-    <set xpath="/shapes/shape[@name='poleSquareDoubleTop']/property[@name='ShapeCategories']">All,Poles,Arches</set>
-    <append xpath="/shapes/shape[@name='poleSquareDoubleTop']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
+    <!-- Overrides -->
 
-    <set xpath="/shapes/shape[@name='poleSquareDoubleTopDouble']/property[@name='ShapeCategories']">All,Poles,L-Shaped</set>
-    <append xpath="/shapes/shape[@name='poleSquareDoubleTopDouble']">
-        <property name="CustomIconTint" value="1/4orange"/>
-    </append>
 </configs>
 

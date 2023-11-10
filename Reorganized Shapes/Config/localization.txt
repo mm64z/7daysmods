@@ -1,0 +1,9 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+shapeCategoryAll,XUi,Shape Window,,,All Shapes
+shapeCategoryRoofing,XUi,Shape Window,,,Roofing
+shapeCategoryCubeswithCutouts,XUi,Shape Window,,,Cubes with Cutouts
+shapeCategoryLShapes,XUi,Shape Window,,,L-Shapes
+shapeCategoryBeveled,XUi,Shape Window,,,Beveled
+shapeCategoryMultiPaint,XUi,Shape Window,,,Multi-Paint
+shapeCategoryArches,XUi,Shape Window,,,Arches
