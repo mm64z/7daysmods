@@ -18,7 +18,7 @@
 		</item>
 		<item name="resourceBundlingCaseSmall">
 			<property name="Extends" value="resourceWood"/>
-			<property name="CustomIcon" value="cntChest01"/>
+			<property name="CustomIcon" value="cntWoodenChestOpen"/>
 			<property name="Material" value="Mwood"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="Group" value="Resources"/>
@@ -34,7 +34,7 @@
 		<item name="bundleAmmoBase">
 			<property name="Extends" value="resourceRockSmallBundle"/>
 			<property name="ItemTypeIcon" value="bundle"/> <!-- upper left icon treasure,explosion,gunsmithing,computer,book,book_read,campfire,forge,bundle -->
-			<property name="CustomIcon" value="cntChest01"/>
+			<property name="CustomIcon" value="cntWoodenChestClosed"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="Group" value="Ammo"/>
 			<property class="Action0">

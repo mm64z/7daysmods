@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Lunch Bunch" />
-		<Description value="Be able to craft Lunch Bunch pack" />
-		<Author value="Michael and Lilac" />
-		<Version value="1.0" />
-		<Website value="" />
-	</ModInfo>
+  <Name value="ML_LunchBunch" />
+  <DisplayName value="Lunch Bunch" />
+  <Description value="Be able to craft Lunch Bunch pack" />
+  <Author value="Michael and Lilac" />
+  <Version value="1.1" />
+  <Website value="" />
 </xml>
