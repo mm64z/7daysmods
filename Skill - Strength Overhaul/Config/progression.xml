@@ -167,13 +167,13 @@
       <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
       <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
       <effect_group>
-	<requirement name="ItemHasTags" tags="melee"/>
-   	<passive_effect name="DismemberChance" operation="base_add" level="1,5" value=".1,.5" tags="head,arm,leg"/>
-	<effect_description desc_base="Ch" level="1" long_desc_key="10% chance to dismember with a melee strike"/>
-	<effect_description desc_base="Chop" level="2" long_desc_key="20% chance to dismember with a melee strike"/>
-	<effect_description desc_base="Chop chop" level="3" long_desc_key="30% chance to dismember with a melee strike"/>
-	<effect_description desc_base="Chop chop chop" level="4" long_desc_key="40% chance to dismember with a melee strike"/>
-	<effect_description desc_base="Biggest chop" level="5" long_desc_key="50% chance to dismember with a melee strike"/>
+        <requirement name="ItemHasTags" tags="melee"/>
+        <passive_effect name="DismemberChance" operation="base_add" level="1,5" value=".1,.5" tags="head,arm,leg"/>
+        <effect_description desc_base="Ch" level="1" long_desc_key="10% chance to dismember with a melee strike"/>
+        <effect_description desc_base="Chop" level="2" long_desc_key="20% chance to dismember with a melee strike"/>
+        <effect_description desc_base="Chop chop" level="3" long_desc_key="30% chance to dismember with a melee strike"/>
+        <effect_description desc_base="Chop chop chop" level="4" long_desc_key="40% chance to dismember with a melee strike"/>
+        <effect_description desc_base="Biggest chop" level="5" long_desc_key="50% chance to dismember with a melee strike"/>
       </effect_group>
     </perk>
   </append>
@@ -187,13 +187,13 @@
       <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
       <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
       <effect_group>
-	<requirement name="ItemHasTags" tags="melee"/>
-   	<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".05,.25"/>
-	<effect_description desc_base="1 Push Up" level="1" long_desc_key="Increase melee damage by 5%"/>
-	<effect_description desc_base="10 Push Ups" level="2" long_desc_key="Increase melee damage by 10%"/>
-	<effect_description desc_base="100 Push Ups" level="3" long_desc_key="Increase melee damage by 15%"/>
-	<effect_description desc_base="1000 Push Ups" level="4" long_desc_key="Increase melee damage by 20%"/>
-	<effect_description desc_base="10000 Push Ups" level="5" long_desc_key="Increase melee damage by 25%"/>
+        <requirement name="ItemHasTags" tags="melee"/>
+        <passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".05,.25"/>
+        <effect_description desc_base="1 Push Up" level="1" long_desc_key="Increase melee damage by 5%"/>
+        <effect_description desc_base="10 Push Ups" level="2" long_desc_key="Increase melee damage by 10%"/>
+        <effect_description desc_base="100 Push Ups" level="3" long_desc_key="Increase melee damage by 15%"/>
+        <effect_description desc_base="1000 Push Ups" level="4" long_desc_key="Increase melee damage by 20%"/>
+        <effect_description desc_base="10000 Push Ups" level="5" long_desc_key="Increase melee damage by 25%"/>
       </effect_group>
     </perk>
   </append>
@@ -207,12 +207,12 @@
       <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
       <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
       <effect_group>
-   	<passive_effect name="StaminaMax" operation="base_add" level="1,5" value="10,50"/>
-	<effect_description desc_base="1 Minute Hero" level="1" long_desc_key="Increase max stamina by 10"/>
-	<effect_description desc_base="Brisk Walker" level="2" long_desc_key="Increase max stamina by 20"/>
-	<effect_description desc_base="10km Runner" level="3" long_desc_key="Increase max stamina by 30"/>
-	<effect_description desc_base="Marathoner" level="4" long_desc_key="Increase max stamina by 40"/>
-	<effect_description desc_base="Running Bunny Mask" level="5" long_desc_key="Increase max stamina by 50"/>
+        <passive_effect name="StaminaMax" operation="base_add" level="1,5" value="10,50"/>
+          <effect_description desc_base="1 Minute Hero" level="1" long_desc_key="Increase max stamina by 10"/>
+          <effect_description desc_base="Brisk Walker" level="2" long_desc_key="Increase max stamina by 20"/>
+          <effect_description desc_base="10km Runner" level="3" long_desc_key="Increase max stamina by 30"/>
+          <effect_description desc_base="Marathoner" level="4" long_desc_key="Increase max stamina by 40"/>
+          <effect_description desc_base="Running Bunny Mask" level="5" long_desc_key="Increase max stamina by 50"/>
       </effect_group>
     </perk>
   </append>

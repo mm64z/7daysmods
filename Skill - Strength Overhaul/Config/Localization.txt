@@ -13,8 +13,32 @@ perkPummelPeteRank4LongDesc,progression,perk Str,,,"When you said stay down, you
 perkPummelPeteRank5Desc,progression,perk Str,,,Pummel Pete,,Prügel-Peter,Pete apalea,Pete la terreur,Pete il battitore,パメル・ピート,마구 때리는 피트,Jaskiniowiec,Pete Pancada,Громила Пит,Pummel Pete,击球手佩特,打擊者
 perkPummelPeteRank5LongDesc,progression,perk Str,,,"Pummel Pete once took on 50 zombies with just a club and he would be proud of you. Clubs, sledges, and knuckles deal 50% more damage. Club attacks do 200% more damage to stunned enemies, while fist attacks have a 20% chance to explode heads. Sledge power attacks have a 75% chance to knock the target down and 50% chance to knock down in an area.  Club power attacks have a 100% chance to knock down. Stamina reduced by 25% and power attacks by 50% for clubs/sledges/knuckles. Killing blows with clubs/sledges/knuckles grant 30 stamina. 3 successive club hits in a short time causes the last blow to do 100% extra damage. Find more clubs, sledges, knuckles, and their respective parts in loot.",,,,,,,,,,,,
 
+perkMeleeDismemberName,progression,perk Per,,,"Boom Headshot"
+perkMeleeDismemberDesc,progression,perk Per,,,"Headshots do 20% increased damage per level"
+perkMeleeDismemberRank1Desc,progression,perk Per,,,"Kiss of the lips"
+perkMeleeDismemberRank1LongDesc,progression,perk Per,,,"Increase headshot damage by 20%"
+perkMeleeDismemberRank2Desc,progression,perk Per,,,"Forehead Tap"
+perkMeleeDismemberRank2LongDesc,progression,perk Per,,,"Increase headshot damage by 40%"
+perkMeleeDismemberRank3Desc,progression,perk Per,,,"Between the Eyes"
+perkMeleeDismemberRank3LongDesc,progression,perk Per,,,"Increase headshot damage by 60%"
+perkMeleeDismemberRank4Desc,progression,perk Per,,,"On the Nose"
+perkMeleeDismemberRank4LongDesc,progression,perk Per,,,"Increase headshot damage by 80%"
+perkMeleeDismemberRank5Desc,progression,perk Per,,,"Crowned"
+perkMeleeDismemberRank5LongDesc,progression,perk Per,,,"Increase headshot damage by 100%"
 
 
+perkMeleeDamageName,progression,perk Per,,,"Boom Headshot"
+perkMeleeDamageDesc,progression,perk Per,,,"Headshots do 20% increased damage per level"
+perkMeleeDamageRank1Desc,progression,perk Per,,,"Kiss of the lips"
+perkMeleeDamageRank1LongDesc,progression,perk Per,,,"Increase headshot damage by 20%"
+perkMeleeDamageRank2Desc,progression,perk Per,,,"Forehead Tap"
+perkMeleeDamageRank2LongDesc,progression,perk Per,,,"Increase headshot damage by 40%"
+perkMeleeDamageRank3Desc,progression,perk Per,,,"Between the Eyes"
+perkMeleeDamageRank3LongDesc,progression,perk Per,,,"Increase headshot damage by 60%"
+perkMeleeDamageRank4Desc,progression,perk Per,,,"On the Nose"
+perkMeleeDamageRank4LongDesc,progression,perk Per,,,"Increase headshot damage by 80%"
+perkMeleeDamageRank5Desc,progression,perk Per,,,"Crowned"
+perkMeleeDamageRank5LongDesc,progression,perk Per,,,"Increase headshot damage by 100%"
 
 
 
