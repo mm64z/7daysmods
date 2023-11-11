@@ -4,9 +4,10 @@
     <!-- Add new categories -->
     <append xpath="/shapes/categories">
         <category name="All" icon="ui_game_symbol_all_blocks" order="1" />
-        <category name="Roofing" icon="ui_game_symbol_shape_wedge" order="4" />
+        <category name="Supports" icon="ui_game_symbol_shape_poles" order="2" />
+        <category name="Roofing" icon="ui_game_symbol_shape_wedge" order="15" />
         <category name="Cubes with Cutouts" name_key="shapeCategoryCubeswithCutouts" icon="ui_game_symbol_shape_text" order="15" />
-        <category name="L-Shapes" name_key="shapeCategoryLShapes" icon="ui_game_symbol_muscle" order="16" />
+        <category name="Corners" name_key="shapeCategoryCorners" icon="ui_game_symbol_muscle" order="16" />
         <category name="Beveled" icon="ui_game_symbol_shape_text" order="17" />
         <category name="Multi-Paint" name_key="shapeCategoryMultiPaint" icon="ui_game_symbol_thirst" order="18" />
         <category name="Arches" icon="ui_game_symbol_lock" order="19" />
@@ -19,16 +20,23 @@
     <csv xpath="/shapes/shape/property[@name='ShapeCategories']/@value" op="add">All</csv>
     <!-- Replace existing categories -->
     <csv xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'Wedge')]/@value" op="add">Roofing</csv>
+    <csv xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'Poles')]/@value" op="add">Supports</csv>
     <csv xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'Basic')]/@value" op="remove">Basic</csv>
     <csv xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'Wedge')]/@value" op="remove">Wedge</csv>
+    <csv xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'Poles')]/@value" op="remove">Poles</csv>
     <remove xpath="/shapes/categories/category[@name='Basic']"/>
     <remove xpath="/shapes/categories/category[@name='Wedge']"/>
     <csv xpath="/shapes/shape[contains(@name, 'pole')]/property[@name='ShapeCategories' and contains(@value, 'Square')]/@value" op="remove">Square</csv>
-    <csv xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'halfCorner') or contains(@value, 'HalfCorner')]/@value" op="add">L-Shapes</csv>
+    <csv xpath="/shapes/shape/property[@name='ShapeCategories' and (contains(@value, 'halfCorner') or contains(@value, 'HalfCorner'))]/@value" op="add">L-Shapes</csv>
+    <csv xpath="/shapes/shape[contains(@name, 'bracket') or contains(@name, 'Bracket')]/property[@name='ShapeCategories']/@value" op="add">Deco</csv>
+    <csv xpath="/shapes/shape[(contains(@name, 'window') or contains(@name, 'Window')) and (contains(@name, 'broken') or contains(@name, 'Broken'))]/property[@name='ShapeCategories']/@value" op="add">Destruction</csv>
+    <csv xpath="/shapes/shape[(contains(@name, 'window') or contains(@name, 'Window')) and (contains(@name, 'broken') or contains(@name, 'Broken'))]/property[@name='ShapeCategories']/@value" op="remove">Windows</csv>
+    <csv xpath="/shapes/shape[(contains(@name, 'corner') or contains(@name, 'Corner'))]/property[@name='ShapeCategories']/@value" op="add">Corners</csv>
+    <csv xpath="/shapes/shape[(contains(@name, 'corner') or contains(@name, 'Corner'))]/property[@name='ShapeCategories']/@value" op="remove">Square</csv>
 
-    <append xpath="/shapes/shape/property[@name='ShapeCategories' and contains(@value, 'Square') or contains(@value, 'Round') or contains(@value, 'Roofing')]">
+    <insertAfter xpath="/shapes/shape/property[@name='ShapeCategories' and (contains(@value, 'Square') or contains(@value, 'Round') or contains(@value, 'Roofing'))]">
         <property name="CustomIconTint" value="551B14"/>
-    </append>
+    </insertAfter>
 
     <append xpath="/shapes/shape[contains(@name, '.75')]">
         <property name="CustomIconTint" value="23395B"/>

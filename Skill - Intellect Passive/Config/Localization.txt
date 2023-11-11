@@ -1,7 +1,7 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
 
 attintellect,progression,Attribute,,,Intellect,,Intelligenz,Intelecto,Intelligence,Intelletto,知能,지능,Intelekt,Intelecto,Интеллект,Zekâ,智慧,智力
-attIntellectDesc,progression,Attribute,,,"Intellect is the measure of your mental ability. Increasing Intellect improves head shot damage with intellect governed weapons such as Robotic turrets and stun batons.",,,,,,,,,,,,
+attIntellectDesc,progression,Attribute,,,"Intellect is the measure of your mental ability. Increasing Intellect improves head shot damage with intellect governed weapons. Improves salvaging and increased chance of finding salveage magazines.",,,,,,,,,,,,
 attIntellectName,progression,Attribute,,,Attribute: Intellect,,Attribut: Intelligenz,Atributo: Intelecto,Attribut : Intelligence,Attributo: Intelletto,特性:知能,속성: 지능,Atrybut: Intelekt,Atributo: Intelecto,Атрибут: Интеллект,Nitelik: Zekâ,属性：智慧,屬性：智力
 
 attIntellectRank1Desc,progression,Attribute,,,Blockhead,,Einfaltspinsel,Cabeza de bloque,Crétin,Testa di rapa,まぬけ,돌머리,Pustak,Cabeça oca,Чурбан,Mankafa,木头脑袋,傻瓜
