@@ -13,6 +13,7 @@
   <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='2']/requirement/@progression_name">attFortitude</set>
   <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='3']/requirement/@progression_name">attFortitude</set>
   <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/level_requirements[@level='4']/requirement/@progression_name">attFortitude</set>
+  
   <!-- Move Charismatic Nature to Fortitude -->
   <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/@parent">skillFortitudeSurvival</set>
   <set xpath="/progression/perks/perk[@name='perkCharismaticNature']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel05</set>
@@ -28,7 +29,7 @@
 
   <!-- add perk to increase max health -->
   <append xpath="/progression/perks">
-    <perk name="perkMaxHealth" parent="skillFortitudeSurvival" name_key="Healthy Heart" desc_key="Increase Max Health by 20 per level" icon="ui_game_symbol_healing_factor">
+    <perk name="perkMaxHealth" parent="skillFortitudeSurvival" name_key="" desc_key="" icon="ui_game_symbol_healing_factor">
       <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
       <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
       <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
@@ -36,12 +37,11 @@
       <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
       <effect_group>
        	<passive_effect name="HealthMax" operation="base_add" level="1,5" value="20,100"/>
-        <!-- <passive_effect name="attFortitude" operation="base_add" level="1,5" value="1,5"/> -->
-      	<effect_description desc_base="Heart" level="1" long_desc_key="Increase max health by 20"/>
-      	<effect_description desc_base="Pump" level="2" long_desc_key="Increase max health by 40"/>
-      	<effect_description desc_base="It" level="3" long_desc_key="Increase max health by 60"/>
-      	<effect_description desc_base="Up" level="4" long_desc_key="Increase max health by 80"/>
-      	<effect_description desc_base="!" level="5" long_desc_key="Increase max health by 100"/>
+      	<effect_description desc_base="perkMaxHealthRank1Desc" level="1" long_desc_key="perkMaxHealthRank1LongDesc"/>
+      	<effect_description desc_base="perkMaxHealthRank2Desc" level="2" long_desc_key="perkMaxHealthRank2LongDesc"/>
+      	<effect_description desc_base="perkMaxHealthRank3Desc" level="3" long_desc_key="perkMaxHealthRank3LongDesc"/>
+      	<effect_description desc_base="perkMaxHealthRank4Desc" level="4" long_desc_key="perkMaxHealthRank4LongDesc"/>
+      	<effect_description desc_base="perkMaxHealthRank5Desc" level="5" long_desc_key="perkMaxHealthRank5LongDesc"/>
       </effect_group>
     </perk>
   </append>

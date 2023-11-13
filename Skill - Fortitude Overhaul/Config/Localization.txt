@@ -1,0 +1,14 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+perkMaxHealth,progression,perk For,,,"Healthy Heart"
+perkMaxHealthDesc,progression,perk For,,,"Increase Max Health by 20 per level"
+perkMaxHealthRank1Desc,progression,perk For,,,"Heart"
+perkMaxHealthRank1LongDesc,progression,perk For,,,"Increase max health by 20"
+perkMaxHealthRank2Desc,progression,perk For,,,"Pump"
+perkMaxHealthRank2LongDesc,progression,perk For,,,"Increase max health by 40"
+perkMaxHealthRank3Desc,progression,perk For,,,"It"
+perkMaxHealthRank3LongDesc,progression,perk For,,,"Increase max health by 60"
+perkMaxHealthRank4Desc,progression,perk For,,,"Up"
+perkMaxHealthRank4LongDesc,progression,perk For,,,"Increase max health by 80"
+perkMaxHealthRank5Desc,progression,perk For,,,"!"
+perkMaxHealthRank5LongDesc,progression,perk For,,,"Increase max health by 100"
