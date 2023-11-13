@@ -2,9 +2,14 @@
 <configs>
     <append xpath="vehicles/vehicle[@name='vehicleBicycle']">
 		<property class="seat1">
-			<property name="position" value="0, .192, -.87"/>
-			<property name="rotation" value="-18, 180, 0"/>
+			<property name="position" value="0, .192, -.24"/>
+			<property name="rotation" value="-18, 0, 0"/>
 			<property name="exit" value="-.8,0,0 ~ .8,0,0 ~ 0,0,-1.4 ~ 0,0,1.4 ~ 0,1.5,0"/>
+    
+			<property name="IKHandLPosition" value="-.17, 1.17, .44"/>
+			<property name="IKHandLRotation" value="0, -30, 60"/>
+			<property name="IKHandRPosition" value=".17, 1.17, .44"/>
+			<property name="IKHandRRotation" value="0, 30, -60"/>
 		</property>
 	</append>
 </configs>
