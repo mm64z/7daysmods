@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Clothes Schematics " />
-		<Description value="Add clothes schematics " />
-		<Author value="Michael and Lilac" />
-		<Version value="1.0" />
-		<Website value="" />
-	</ModInfo>
+  <Name value="ML_ClothesSchematics"/>
+  <DisplayName value="Clothes Schematics " />
+  <Description value="Add clothes schematics " />
+  <Author value="Michael and Lilac" />
+  <Version value="1.1" />
+  <Website value="" />
 </xml>

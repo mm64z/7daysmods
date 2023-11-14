@@ -67,10 +67,10 @@
             <property name="CustomIconTint" value="120,100,250"/>
             <property name="ItemTypeIcon" value="treasure"/>
             <property name="HoldType" value="45"/>
-            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="MapparelCoatLeatherDuster"/>
-			<property name="Weight" value="100"/>
+			      <property name="Weight" value="100"/>
             <property name="Stacknumber" value="500"/>
             <property name="SellableToTrader" value="false"/>
             <property name="Weight" value="1"/>
