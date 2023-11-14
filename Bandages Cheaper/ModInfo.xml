@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-  <Name value="ML_CheaperBandages" />
-  <DisplayName value="Cheaper Bandages"/>
-  <Description value="Half price bandages" />
+  <Name value="ML_CheaperBandagesDuctTape" />
+  <DisplayName value="Cheaper Bandages and Duct Tape"/>
+  <Description value="Half price bandages and duct tape" />
   <Author value="Michael and Lilac" />
   <Version value="1.0" />
   <Website value="" />
