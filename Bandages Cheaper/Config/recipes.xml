@@ -1,0 +1,4 @@
+<configs>
+	<set xpath="/recipes/recipe[@name='medicalBandage']/ingredient[@name='resourceCloth']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='resourceDuctTape']/ingredient[@name='resourceCloth']/@count">5</set>
+</configs>
