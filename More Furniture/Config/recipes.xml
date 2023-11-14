@@ -1,0 +1,79 @@
+<ClothesSchematics>
+    <append xpath="/recipes">
+        <!-- Add for scrap to -->
+        <recipe name="dapparelCoatLeatherDuster" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelCowboyHat" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelDenimPants" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelOveralls" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelSuitDressShoes" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelArmyPants" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelArmyShirt" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelCoatJacketLetterZU" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelBallCap" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelCowboyBoots" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelFlannelShirt" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelSweatshirt" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelRunningShoesRegular" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelCoatPufferCoat" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelDenimShortsPants" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelSkirt" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelSkullCap" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelTShirtPlain" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelTankTop" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelWornBoots" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelGothBoots" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelGothPants" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelHoodySweatshirt" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelCoatJacketGeneric" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelPressboyCap" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelLongShirt" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelSuitJacket" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelSuitPants" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="dapparelTShirtZU" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <!-- Create missing sewing kit and clothing recipes -->
+        <recipe name="resourceSewingKit" count="1" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceCropCottonPlant" count="10"/>
+            <ingredient name="resourceNail" count="1"/>
+        </recipe>
+        <recipe name="apparelGothBoots" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="2"/>
+            <ingredient name="resourceLeather" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="5"/>
+            <ingredient name="resourceSewingKit" count="1"/>
+        </recipe>
+        <recipe name="apparelGothPants" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="3"/>
+            <ingredient name="resourceLeather" count="25"/>
+            <ingredient name="resourceSewingKit" count="2"/>
+        </recipe>
+        <recipe name="apparelHoodySweatshirt" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceCloth" count="40"/>
+            <ingredient name="resourceSewingKit" count="1"/>
+        </recipe>
+        <recipe name="apparelCoatJacketGeneric" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceCloth" count="20"/>
+            <ingredient name="resourceSewingKit" count="1"/>
+        </recipe>
+        <recipe name="apparelPressboyCap" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceCloth" count="4"/>
+            <ingredient name="resourceSewingKit" count="1"/>
+        </recipe>
+        <recipe name="apparelLongShirt" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceCloth" count="20"/>
+            <ingredient name="resourceSewingKit" count="1"/>
+        </recipe>
+        <recipe name="apparelSuitJacket" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceCloth" count="60"/>
+            <ingredient name="resourceSewingKit" count="3"/>
+        </recipe>
+        <recipe name="apparelSuitPants" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceCloth" count="40"/>
+            <ingredient name="resourceSewingKit" count="2"/>
+        </recipe>
+        <recipe name="apparelTShirtZU" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceCloth" count="25"/>
+            <ingredient name="resourcePaint" count="2"/>
+            <ingredient name="resourceSewingKit" count="1"/>
+        </recipe>
+    </append>
+</ClothesSchematics>
