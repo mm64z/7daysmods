@@ -1,0 +1,120 @@
+<ClothesSchematics>
+    <append xpath="/materials">
+        <material id="MapparelCoatLeatherDuster">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelCoatLeatherDuster"/>
+        </material>
+        <material id="MapparelCowboyHat">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelCowboyHat"/>
+        </material>
+        <material id="MapparelDenimPants">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelDenimPants"/>
+        </material>
+        <material id="MapparelOveralls">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelOveralls"/>
+        </material>
+        <material id="MapparelSuitDressShoes">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelSuitDressShoes"/>
+        </material>
+        <material id="MapparelArmyPants">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelArmyPants"/>
+        </material>
+        <material id="MapparelArmyShirt">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelArmyShirt"/>
+        </material>
+        <material id="MapparelCoatJacketLetterZU">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelCoatJacketLetterZU"/>
+        </material>
+        <material id="MapparelBallCap">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelBallCap"/>
+        </material>
+        <material id="MapparelCowboyBoots">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelCowboyBoots"/>
+        </material>
+        <material id="MapparelFlannelShirt">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelFlannelShirt"/>
+        </material>
+        <material id="MapparelSweatshirt">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelSweatshirt"/>
+        </material>
+        <material id="MapparelRunningShoesRegular">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelRunningShoesRegular"/>
+        </material>
+        <material id="MapparelCoatPufferCoat">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelCoatPufferCoat"/>
+        </material>
+        <material id="MapparelDenimShortsPants">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelDenimShortsPants"/>
+        </material>
+        <material id="MapparelSkirt">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelSkirt"/>
+        </material>
+        <material id="MapparelSkullCap">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelSkullCap"/>
+        </material>
+        <material id="MapparelTShirtPlain">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelTShirtPlain"/>
+        </material>
+        <material id="MapparelTankTop">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelTankTop"/>
+        </material>
+        <material id="MapparelWornBoots">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelWornBoots"/>
+        </material>
+        <material id="MapparelGothBoots">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelGothBoots"/>
+        </material>
+        <material id="MapparelGothPants">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelGothPants"/>
+        </material>
+        <material id="MapparelHoodySweatshirt">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelHoodySweatshirt"/>
+        </material>
+        <material id="MapparelCoatJacketGeneric">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelCoatJacketGeneric"/>
+        </material>
+        <material id="MapparelPressboyCap">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelPressboyCap"/>
+        </material>
+        <material id="MapparelLongShirt">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelLongShirt"/>
+        </material>
+        <material id="MapparelSuitJacket">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelSuitJacket"/>
+        </material>
+        <material id="MapparelSuitPants">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelSuitPants"/>
+        </material>
+        <material id="MapparelTShirtZU">
+            <property name="Extends" value="MresourceCloth"/>
+            <property name="forge_category" value="dapparelTShirtZU"/>
+        </material>
+    </append>
+</ClothesSchematics>

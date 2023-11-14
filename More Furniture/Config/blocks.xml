@@ -1,0 +1,74 @@
+<Configs>
+    <csv xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value" op="add">diningTable01,umbrellaTableDownWhite,umbrellaTableDownBrown,umbrellaTableDownRed,umbrellaTableDownOrange,umbrellaTableDownYellow,umbrellaTableDownGreen,umbrellaTableDownBlue,umbrellaTableDownPurple,umbrellaTableDownGrey,umbrellaTableDownBlack,umbrellaTableDownPink,umbrellaTableDownWhite,umbrellaTableUpBrown,umbrellaTableUpRed,umbrellaTableUpOrange,umbrellaTableUpYellow,umbrellaTableUpGreen,umbrellaTableUpBlue,umbrellaTableUpPurple,umbrellaTableUpGrey,umbrellaTableUpBlack,umbrellaTableUpPink</csv>
+    <append xpath="/blocks/block[@name='chairWood01']">
+        <property name="TintColor" value="594236"/>
+    </append>
+    <append xpath="/blocks">
+        <block name="chairWood01White">
+            <property name="Extends" value="chairWood01"/>
+            <property name="CustomIcon" value="chairWood01"/>
+            <property name="CustomIconTint" value="8C8C8C"/>
+            <property name="TintColor" value="8C8C8C"/>
+            <property name="SortOrder2" value="0001"/>
+        </block>
+
+        <block name="chairWood01Eggshell">
+            <property name="Extends" value="chairWood01"/>
+            <property name="CustomIcon" value="chairWood01"/>
+            <property name="CustomIconTint" value="DBD8AE"/>
+            <property name="TintColor" value="DBD8AE"/>
+            <property name="SortOrder2" value="0002"/>
+        </block>
+
+        <block name="chairWood01Black">
+            <property name="Extends" value="chairWood01"/>
+            <property name="CustomIcon" value="chairWood01"/>
+            <property name="CustomIconTint" value="292929"/>
+            <property name="TintColor" value="31452B"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+        <block name="chairWood01Red">
+            <property name="Extends" value="chairWood01"/>
+            <property name="CustomIcon" value="chairWood01"/>
+            <property name="CustomIconTint" value="590004"/>
+            <property name="TintColor" value="590004"/>
+            <property name="SortOrder2" value="0006"/>
+        </block>
+
+        <block name="chairWood01Blue">
+            <property name="Extends" value="chairWood01"/>
+            <property name="CustomIcon" value="chairWood01"/>
+            <property name="CustomIconTint" value="1A1B41"/>
+            <property name="TintColor" value="1A1B41"/>
+            <property name="SortOrder2" value="0000"/>
+        </block>
+
+        <block name="chairWood01Grey">
+            <property name="Extends" value="chairWood01"/>
+            <property name="CustomIcon" value="chairWood01"/>
+            <property name="CustomIconTint" value="858585"/>
+            <property name="TintColor" value="858585"/>
+            <property name="SortOrder2" value="0000"/>
+        </block>
+
+
+        <!-- *** Wood chair variant helper -->
+        <block name="chairWood01VariantHelper">
+            <property name="Extends" value="chairWood01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="chairWood01"/>
+            <property name="CustomIconTint" value="292929"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="PickupJournalEntry" value="shapeMenuTip"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="chairWood01,chairWood01Eggshell,chairWood01White,chairWood01Grey,chairWood01Black,chairWood01Red,chairWood01Blue"/>
+            <property name="SortOrder1" value="U200"/>
+            <property name="SortOrder2" value="0000"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+            <property name="FilterTags" value="MC_building,SC_decor,SC_commercial,SC_residential,MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+    </append>
+
+</Configs>
