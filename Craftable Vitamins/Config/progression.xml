@@ -1,0 +1,18 @@
+<configs>
+
+
+	  
+	<csv xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[contains(@name_key, 'medicalT2-1')]/@icon" op="add">drugVitamins</csv>
+	<csv xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[contains(@name_key, 'medicalT2-1')]/@unlock_level" op="add">45</csv>
+	<csv xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[contains(@name_key, 'medicalT2-1')]/@name_key" op="add">medicalT2-4</csv>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[contains(@name_key, 'medicalT2-1')]">
+		<unlock_entry item="drugVitamins" unlock_tier="4" />	
+	</append>
+
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/effect_group">
+
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="drugVitamins"/>				
+
+	</append>
+
+</configs>
