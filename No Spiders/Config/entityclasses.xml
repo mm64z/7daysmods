@@ -1,0 +1,3 @@
+<configs>
+  <csv xpath="//entity_class[@name='animalChickenHostile']/property[@name='NavObject']/@value" op="add">clear_sleeper</csv>
+</configs>
