@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Increase Vehicle Speeds" />
+		<Name value="Increase_Vehicle_Speeds" />
+		<DisplayName value="Increase Vehicle Speeds" />
 		<Description value="Increase vehicle speed" />
 		<Author value="Michael" />
 		<Version value="1.0" />
 		<Website value="" />
-	</ModInfo>
 </xml>

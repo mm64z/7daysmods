@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Nerf Demo Zombies" />
+		<Name value="Nerf_Demo_Zombies" />
+		<DisplayName value="Nerf Demo Zombies" />
 		<Description value="Tone down the block damage of Demolition Zombies" />
 		<Author value="Michael and Lilac" />
 		<Version value="1.0" />
 		<Website value="" />
-	</ModInfo>
 </xml>

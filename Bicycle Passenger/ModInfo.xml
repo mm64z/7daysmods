@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Bicycle passenger" />
+		<Name value="Bicycle_passenger" />
+		<DisplayName value="Bicycle passenger" />
 		<Description value="Add a seat to the bicycle" />
 		<Author value="Michael" />
 		<Version value="1.0" />
 		<Website value="" />
-	</ModInfo>
 </xml>

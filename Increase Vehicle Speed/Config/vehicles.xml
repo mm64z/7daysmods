@@ -7,7 +7,7 @@
 	<!-- base motorycle is 9,14 -->
     <set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax_turbo']/@value">20, 6, 40, 8</set>
 	<!-- base 4x4 is 9,14 -->
-    <set xpath="vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax_turbo']/@value">18, 8, 30, 10</set>
+    <set xpath="vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='velocityMax_turbo']/@value">18, 8, 30, 10</set>
 	<!-- base gyro is 9,15 -->
     <set xpath="vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax_turbo']/@value">22, 9, 42, 9</set>
 </configs>

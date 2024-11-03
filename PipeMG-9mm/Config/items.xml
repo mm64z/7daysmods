@@ -7,6 +7,6 @@
 	</append>
 	<!-- <set xpath="items/item[@name='gunMGT0PipeMachineGun']/effect_group/passive_effect[@name='EntityDamage' and @operation='base_add']/@value">
 		-12
-	</set> -->
+	</set> --> <!-- base is -16.6 -->
 </configs>
 
