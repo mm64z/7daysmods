@@ -137,7 +137,7 @@
 				<property name="Create_item_count" value="1,5,2,1"/>
 			</property>
 		</item>
-		<item name="bundleHeatSurvivalKit">
+		<!-- <item name="bundleHeatSurvivalKit">
 			<property name="Extends" value="bundleLunchBox"/>
 			<property name="CustomIcon" value="cntBackpack01"/>
 			<property name="Group" value="Clothing"/>    
@@ -145,8 +145,8 @@
 				<property name="Create_item" value="apparelCowboyHat,apparelCoatLeatherDuster,apparelTankTop,apparelDenimShortsPants,resourceBundlingBackpack"/>
 				<property name="Create_item_count" value="1,1,1,1,1"/>
 			</property>
-		</item>
-		<item name="bundleColdSurvivalKit">
+		</item> -->
+		<!-- <item name="bundleColdSurvivalKit">
 			<property name="Extends" value="bundleLunchBox"/>
 			<property name="CustomIcon" value="cntLuggageMediumClosed"/>
 			<property name="CustomIconTint" value="2f632f"/>
@@ -155,7 +155,7 @@
 				<property name="Create_item" value="drinkYuccaJuiceSmoothie,apparelCoatPufferCoat,apparelHoodySweatshirt,apparelArmyPants,resourceBundlingBackpack"/>
 				<property name="Create_item_count" value="10,1,1,1,1"/>
 			</property>
-		</item>
+		</item> -->
 		<!-- Piggy Bank bundles -->
 	   <item name="bundlePiggyBankBase">
 			<property name="Extends" value="resourceRockSmallBundle"/>
